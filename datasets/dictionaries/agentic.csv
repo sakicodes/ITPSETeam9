@@ -1,4 +1,4 @@
-keyword,category
+keyword,category,weight
 lead,leadership
 drive,leadership
 initiative,leadership
@@ -6,6 +6,18 @@ independent,workstyle
 self-starter,workstyle
 ownership,workstyle
 driven,workstyle
-competitive,workstyle
 assertive,communication
 decisive,communication
+specialist,expertise
+ambitious,personality
+autonomous,workstyle
+proactive,workstyle
+results-driven,workstyle
+goal-oriented,workstyle
+strategic,leadership
+visionary,leadership
+influential,leadership
+confident,communication
+persuasive,communication
+executive,leadership
+entrepreneurial,leadership

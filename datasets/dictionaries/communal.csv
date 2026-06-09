@@ -1,4 +1,4 @@
-keyword,category
+keyword,category,weight
 collaborate,teamwork
 coordinate,teamwork
 support,teamwork
@@ -13,3 +13,18 @@ relationship-building,service
 customer-focused,service
 stakeholder alignment,service
 consultant,service
+interpersonal,service
+empathetic,quality
+compassionate,quality
+caring,quality
+nurturing,quality
+inclusive,teamwork
+consensus-building,teamwork
+mentor,service
+mentoring,service
+community-oriented,service
+partnership,teamwork
+stakeholder engagement,service
+cross-functional collaboration,teamwork
+trust-building,quality
+respectful,quality

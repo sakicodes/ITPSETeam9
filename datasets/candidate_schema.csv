@@ -1,0 +1,13 @@
+field,type,description
+candidate_id,string,unique identifier
+role,string,target job role
+industry,string,career field
+country,string,candidate country
+seniority,string,junior or senior
+education,string,highest qualification
+years_experience,int,total experience
+technical_skills,string,list of skills
+achievement_1,string,key achievement
+achievement_2,string,key achievement
+competence_framing,string,agentic or communal
+cover_letter,text,generated cover letter

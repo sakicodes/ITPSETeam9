@@ -1,0 +1,7 @@
+field,type,description
+jd_id,string,unique identifier
+role,string,target role
+country,string,target country
+seniority,string,junior or senior
+framing,string,agentic or communal
+job_description,text,full description

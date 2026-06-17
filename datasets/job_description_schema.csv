@@ -1,5 +1,5 @@
 field,type,description
-jd_id,string,unique identifier
+industry,string, target industry
 role,string,target role
 seniority,string,junior or senior
 framing,string,Neutral or AC

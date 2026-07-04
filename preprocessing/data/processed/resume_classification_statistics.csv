@@ -1,0 +1,15 @@
+Metric,Value
+Total resumes loaded,1987.0
+Relevant resumes retained,704.0
+Duplicate resumes removed,1.0
+Empty resumes removed,0.0
+Emails removed,9.0
+Phone numbers removed,454.0
+URLs removed,39.0
+Total candidate phrases extracted,9549.0
+Duplicate phrases removed,621.0
+Final phrases retained,8928.0
+Average phrase length,16.6
+Minimum phrase length,5.0
+Maximum phrase length,35.0
+Average phrases per resume,12.7

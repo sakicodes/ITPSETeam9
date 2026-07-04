@@ -1,4 +1,2 @@
-*.csv
-
 !datasets/dictionary_expansion/expanded_dictionary/agentic_expanded.csv
 !datasets/dictionary_expansion/expanded_dictionary/communal_expanded.csv

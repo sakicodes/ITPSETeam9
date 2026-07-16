@@ -1,0 +1,21 @@
+Metric,Value
+Total raw JDs,7964.0
+Rows retained,3937.0
+Rows removed,4027.0
+Industry distribution: Sales / Business Development,3903.0
+Industry distribution: Project Management / Programme Management,17.0
+Industry distribution: Procurement / Sourcing / Supply Chain,17.0
+Total phrases extracted,24349.0
+Average extracted phrase length,16.5
+Phrases retained after balancing,405.0
+Phrases removed during balancing,23944.0
+Balanced phrases: Procurement / Sourcing / Supply Chain,135.0
+Balanced phrases: Project Management / Programme Management,135.0
+Balanced phrases: Sales / Business Development,135.0
+Phrases rejected by AI Classifier,10.0
+Phrases split by AI Classifier,141.0
+Final Neutral phrases,202.0
+Final Agentic phrases,130.0
+Final Communal phrases,68.0
+Total retained phrases in dictionary,430.0
+Experimental JDs generated,144.0

@@ -1,0 +1,36 @@
+Communal Words — Cover Letter Language Dictionary,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Word / Phrase,Alternate Word / Phrase,Category,"Count in
+Cover Letter Dataset","Count in
+Indeed Guides","Total
+Count","Quality Bias
+Flag",Flag Reason,Definition / Usage Note,Source,,,,,,,,,,,,,,,,,,
+developing alongside the team,"developing alongside, develop alongside, develop with, developing with",Communal,0,0,6,Medium,"Formally 'growing together' - Vague/passive framing, no individual competence signal",Growing together,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,developing alongside,develop alongside,develop along,develop with,developing with,,,,0,0,0,0,0,0,0,0,,0
+motivated by,"motivate by, motivate from, motivated with, motivating with, motivation from",Communal,0,0,6,Medium,Formally 'inspired' - Expresses feeling rather than a skill or action,Inspired by opportunity,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,motivate by,motivate from,motivated with,motivating with,motivation from,,,,0,0,0,0,0,0,0,0,,0
+contribute,"contribution, contributed, contributing",Communal,526,2,8,,,Contributes to the team,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,contribution,contributed,contributing,,,,,,475,11,,40,0,0,0,0,,526
+cohesive,cohesion,Communal,1,1,7,,,Cohesive environment,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,cohesion,,,,,,,,0,1,0,0,0,0,0,0,,1
+dedication,"dedicate, dedicating, dedicated",Communal,55,1,7,,,Dedication,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,dedicate,dedicating,dedicated,,,,,,9,46,0,,0,0,0,0,,55
+collaborative effort,"collaborate, collaboration, collaborated",Communal,151,0,6,,,Collaborative effort,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,collaborate,collaboration,collaborated,,,,,,0,129,22,,0,0,0,0,,151
+collective goals,collective,Communal,0,0,6,,,Collective goals,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,collective,collection of,,,,,,,0,0,0,0,0,0,0,0,,0
+cooperative spirit,"cooperative, cooperation",Communal,1,0,6,,,Cooperative spirit,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,cooperative,cooperative-spirit,cooperation,,,,,,0,1,0,0,0,0,0,0,,1
+fostering harmony,"foster, fostering, fostered, harmony, harmonize, harmonise",Communal,5,0,6,,,Fosters harmony,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,foster,fostering,fostered,harmony,harmonial,harmonize,harmonise,,0,5,,0,0,0,0,0,,5
+jointly,joint,Communal,0,0,6,,,Jointly / together,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,joint,,,,,,,,0,0,0,0,0,0,0,0,,0
+mutual trust,"mutual, trust, trusts, trusted",Communal,3,0,6,,,Mutual trust,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,mutual,mutuals,trust,trusts,trusting,trusted,,,0,0,0,3,0,0,0,0,,3
+overarching success,"overarching, overarching-success",Communal,0,0,6,,,Overarching success,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,overarching,overarching-success,,,,,,,0,0,0,0,0,0,0,0,,0
+shared endeavor,"share, shares, sharing, shared",Communal,11,0,6,,,Shared endeavor,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,shared-endeavor,share,shares,sharing,shared,,,,0,0,4,0,7,,0,0,,11
+supportive,"supporting, support",Communal,99,0,6,,,"Active, ongoing backing of others — replaces 'patience', which read as a passive virtue rather than active collaboration",ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Communal Cover Letter' template,supporting,support,,,,,,,1,,98,0,0,0,0,0,,99
+assist,"assists, assisting, assisted",Communal,13,,,,,,,assists,assisting,assisted,,,,,,13,0,,,0,0,0,0,,13
+build,"builds, built",Communal,110,,,,,,,builds,building,built,,,,,,71,0,,39,0,0,0,0,,110
+client,clients,Communal,45,,,,,,,clients,,,,,,,,45,,0,0,0,0,0,0,,45
+commit,"commits, committing, committed",Communal,31,,,,,,,commits,commiting,commited,,,,,,31,0,0,0,0,0,0,0,,31
+communicate,"communicates, communicating, communicated",Communal,98,,,,,,,communicates,communicating,communicated,,,,,,86,0,12,,0,0,0,0,,98
+connect,"connects, connecting, connected",Communal,4,,,,,,,connects,connecting,connected,,,,,,3,0,0,1,0,0,0,0,,4
+interpersonal,"interpersonally, inter-personal",Communal,19,,,,,,,interpersonally,inter-personal,,,,,,,18,0,1,0,0,0,0,0,,19
+long-term,long term,Communal,2,,,,,,,long term,,,,,,,,2,0,0,0,0,0,0,0,,2
+partner,"partners, partnered",Communal,21,,,,,,,partners,partnered,,,,,,,21,,,0,0,0,0,0,,21
+relation,"relational, relationship",Communal,36,,,,,,,relational,relationship,related,,,,,,27,,,9,0,0,0,0,,36
+satisfaction,"satisfied, satisfactory",Communal,18,,,,,,,satisfactions,satisfied,satisfactory,,,,,,18,0,0,0,0,0,0,0,,18
+service,services,Communal,68,,,,,,,services,servicing,serviced,,,,,,68,,0,0,0,0,0,0,,68
+sincere,sincerely,Communal,0,,,,,,,sincerely,,,,,,,,,,0,0,0,0,0,0,,0
+team,"teams, team player, team-player",Communal,509,,,,,,,teams,teaming,teamed,team player,team-player,,,,509,,0,0,,0,0,0,,509
+understand,"understands, understanding, understood",Communal,294,,,,,,,understands,understanding,understood,,,,,,293,0,,1,0,0,0,0,,294

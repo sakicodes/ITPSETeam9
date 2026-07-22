@@ -1,0 +1,61 @@
+Agentic Words — Cover Letter Language Dictionary,,,,,,,,,
+,,,,,,,,,
+Word / Phrase,Alternate Word / Phrase,Category,"Count in
+Cover Letter Dataset","Count in
+Indeed Guides","Total
+Count","Quality Bias
+Flag",Flag Reason,Definition / Usage Note,Source
+strategic,"strategy, strategies, strategise, strategize",Agentic,80,0,12,Medium,Can read as a competence/intelligence claim rather than pure style,Strategic,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+self motivated,"self-motivated, highly motivated, highly-motivated",Agentic,23,0,6,Medium,Formally 'Highly Motivation' - 'Highly' is an intensifier that reads as a quality claim,Highly motivated,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+specialized expertise,"specialist, specialists, specialize, specialise, specialized, specialised",Agentic,24,0,6,Medium,"Formally 'specialized expertise' - Implies superior/rare qualification, not just tone",Specialized expertise,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+consistently,consistent,Agentic,34,1,7,,,Consistently (performance),ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+delivering,"deliver, delivers",Agentic,207,1,7,,,Delivers results,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+problem-solving,"problem solving, solution to, solutions to",Agentic,221,1,7,,,Problem-solving,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+act decisively,"decision, decisive, decisively",Agentic,106,0,6,,,Acts decisively,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+ambitious goals,"ambitious, ambition",Agentic,3,0,6,,,Ambitious goals,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+autonomous professional,autonomous,Agentic,2,0,6,,,Autonomous professional,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+execute,"executes, executing, execution, executed",Agentic,23,0,6,,,Executes objectives,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+independent judgment,"independent, independently",Agentic,30,0,6,,,Independent judgment,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+individual skills,"individual, individuals, individually",Agentic,32,0,6,,,Individual skills,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+leverage,"leverages, leveraging, leveraged",Agentic,65,0,6,,,Leverages skills,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+managed,"manage, manages, managing",Agentic,495,0,6,,,Managed (projects),ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+optimize performance,"optimise, optimization, optimisation, optimizing, optimising, optimized, optimised",Agentic,39,0,6,,,Optimizes performance,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+overcoming challenges,"overcome, overcoming, overcame",Agentic,1,0,6,,,Overcomes challenges,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+proactive,proactively,Agentic,10,0,6,,,Proactive,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+taking initiative,initiative,Agentic,35,0,6,,,Takes initiative,ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+thrive,"thrives, thriving, thrived",Agentic,32,0,6,,,Thrives (in dynamic settings),ShashiVish/cover-letter-dataset (uploaded file: cover_letters_dataset.csv) — words unique to 'Agentic Cover Letter' template
+achieve,"achieving, achieved, achievement",Agentic,19,,,,,,
+active,actives,Agentic,25,,,,,,
+analytical,"analyze, analyse",Agentic,233,,,,,,
+challenge,"challenges, challenging, challenged",Agentic,74,,,,,,
+command,"commands, commanding, commanded",Agentic,4,,,,,,
+competetive,"compete, competing, competed",Agentic,3,,,,,,
+confident,,Agentic,517,,,,,,
+creative,creativity,Agentic,11,,,,,,
+determined,determination,Agentic,2,,,,,,
+direct,"directs, directing, directed",Agentic,18,,,,,,
+driven,drive to,Agentic,95,,,,,,
+dynamic,dynamics,Agentic,18,,,,,,
+effective,effectively,Agentic,269,,,,,,
+efficient,"efficiently, efficiency",Agentic,97,,,,,,
+forecast,"forecasts, forecasting, forecasted",Agentic,19,,,,,,
+goal,goals,Agentic,59,,,,,,
+implement,"implements, implementing, implemented, implementation",Agentic,158,,,,,,
+innovative,"innovate, innovates, innovating, innovated, innovation",Agentic,125,,,,,,
+insightful,"insight, insights",Agentic,164,,,,,,
+lead,"leader, leaders, leading",Agentic,93,,,,,,
+master,"masters, mastered",Agentic,202,,,,,,
+objective,objectives,Agentic,33,,,,,,
+outcome,,Agentic,26,,,,,,
+performance,"perform, performing, performed",Agentic,129,,,,,,
+pioneer,"pioneering, pioneered",Agentic,4,,,,,,
+power,"powers, powered",Agentic,47,,,,,,
+practical,,Agentic,28,,,,,,
+promote,"promotes, promoted",Agentic,5,,,,,,
+quality,qualities,Agentic,103,,,,,,
+rational,,Agentic,13,,,,,,
+results-oriented,results,Agentic,88,,,,,,
+risk,"risks, risking, risked",Agentic,15,,,,,,
+solution,solutions,Agentic,335,,,,,,
+target,"targets, targeting, targeted",Agentic,6,,,,,,
+win,"wins, winning, won",Agentic,61,,,,,,

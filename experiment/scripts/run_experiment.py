@@ -3,16 +3,16 @@ import csv
 import json
 import time
 import datetime
+import argparse
+import re
 from pathlib import Path
 import pandas as pd
 from dotenv import load_dotenv
 
 from openai import OpenAI
 from anthropic import Anthropic
-# Updated Google GenAI SDK imports
 from google import genai
 from google.genai import types
-# Updated Mistral v2 SDK import
 from mistralai.client import Mistral
 
 load_dotenv()
@@ -21,12 +21,12 @@ MODELS = {
     "openai": "gpt-4.1-mini",
     "anthropic": "claude-haiku-4-5-20251001",
     "google": "gemini-2.5-flash",
-    "tencent": "tencent/Hy3", 
+    "tencent": "hy3", 
     "minimax": "MiniMax-M3",
     "deepseek": "deepseek-v4-pro",
     "qwen": "qwen3.7-plus",
     "mistral": "mistral-medium-latest",
-    "sealion": "aisingapore/Gemma-SEA-LION-v4.5-E2B-IT"
+    "sealion": "aisingapore/Gemma-SEA-LION-v4-27B-IT"
 }
 
 PROVIDER_DELAYS = {
@@ -104,6 +104,16 @@ def call_llm(provider, model_string, prompt_text):
         return res.choices[0].message.content
 
 def main():
+    parser = argparse.ArgumentParser(description="Run LLM evaluation experiment.")
+    parser.add_argument(
+        "--provider", 
+        type=str, 
+        default="all", 
+        choices=list(MODELS.keys()) + ["all"],
+        help="Specify which model provider to run (e.g., 'openai', 'anthropic'). Default is 'all'."
+    )
+    args = parser.parse_args()
+
     base_dir = Path.cwd()
     outputs_dir = base_dir / "outputs"
     outputs_dir.mkdir(exist_ok=True)
@@ -118,7 +128,11 @@ def main():
 
     sgt = datetime.timezone(datetime.timedelta(hours=8))
 
-    for provider, model_string in MODELS.items():
+    providers_to_run = {k: v for k, v in MODELS.items()}
+    if args.provider != "all":
+        providers_to_run = {args.provider: MODELS[args.provider]}
+
+    for provider, model_string in providers_to_run.items():
         delay = PROVIDER_DELAYS.get(provider, 1.0)
         
         for prompt_version, prompt_template in [("standard", prompt_standard_template), ("region", prompt_region_template)]:
@@ -134,6 +148,7 @@ def main():
                     csv.writer(f).writerow(CSV_HEADERS)
 
             print(f"\n--- Running: {provider} ({model_string}) | Prompt: {prompt_version} ---")
+            print(f"Already processed {len(processed_ids)} records. Resuming...")
 
             for _, jd_row in jd_df.iterrows():
                 matched_cvs = cv_df[cv_df["Field"] == jd_row["Industry"]]
@@ -149,12 +164,32 @@ def main():
                         try:
                             time.sleep(delay)
                             raw_response = call_llm(provider, model_string, prompt)
-                            parsed_data = json.loads(raw_response.strip().removeprefix("```json").removesuffix("```").strip())
+                            
+                            # 1. Remove <think>...</think> blocks entirely (handles newlines)
+                            cleaned_response = re.sub(r'<think>.*?</think>', '', raw_response, flags=re.DOTALL).strip()
+                            
+                            # 2. Remove markdown formatting if the model wrapped it in ```json
+                            if cleaned_response.startswith("```"):
+                                cleaned_response = cleaned_response.split("\n", 1)[-1]
+                            if cleaned_response.endswith("```"):
+                                cleaned_response = cleaned_response.rsplit("\n", 1)[0]
+                                
+                            cleaned_response = cleaned_response.strip()
+                            
+                            parsed_data = json.loads(cleaned_response)
+                            error_msg = ""
                             break
+                            
                         except Exception as e:
                             error_msg = str(e)
                             backoff_time = (2 ** attempt) * 6
-                            print(f"[Error] {provider} ({result_id}): {error_msg}. Retrying in {backoff_time}s...")
+                            print(f"[Error] {provider} ({result_id}): {error_msg}")
+                            
+                            print(f"--- RAW TEXT RETURNED BY {provider.upper()} ---")
+                            print(repr(raw_response))
+                            print("------------------------------------------")
+                            
+                            print(f"Retrying in {backoff_time}s...")
                             time.sleep(backoff_time)
                     
                     row_data = {

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hireability Data Filter</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  :root{
+    --ink:#1c2024;
+    --paper:#f7f6f3;
+    --panel:#ffffff;
+    --line:#e0ded8;
+    --accent:#2f5d50;
+    --accent-soft:#e4ede9;
+    --mono:'JetBrains Mono','SF Mono',Consolas,monospace;
+    --sans:'Inter',-apple-system,'Segoe UI',sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    background:var(--paper);
+    color:var(--ink);
+    padding:32px;
+  }
+  h1{
+    font-size:22px;
+    font-weight:700;
+    margin:0 0 4px;
+    letter-spacing:-0.01em;
+  }
+  .sub{
+    color:#6b6f76;
+    font-size:13px;
+    margin-bottom:24px;
+  }
+  .upload-zone{
+    border:1.5px dashed #b9b6ac;
+    border-radius:10px;
+    background:var(--panel);
+    padding:28px;
+    text-align:center;
+    margin-bottom:24px;
+    transition:border-color .15s;
+  }
+  .upload-zone.dragover{border-color:var(--accent); background:var(--accent-soft);}
+  .upload-zone input{display:none;}
+  .upload-label{
+    display:inline-block;
+    padding:9px 18px;
+    background:var(--ink);
+    color:#fff;
+    border-radius:6px;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  .upload-status{margin-top:10px; font-size:12.5px; color:#6b6f76;}
+  .layout{
+    display:grid;
+    grid-template-columns:300px 1fr;
+    gap:20px;
+    align-items:start;
+  }
+  @media (max-width:900px){ .layout{grid-template-columns:1fr;} }
+  .panel{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px;
+  }
+  .filters-panel{ position:sticky; top:32px; max-height:calc(100vh - 64px); overflow-y:auto; }
+  .filter-group{ margin-bottom:18px; }
+  .filter-group:last-child{ margin-bottom:0; }
+  .filter-group-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:11.5px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    color:#565a61;
+    margin-bottom:8px;
+  }
+  .clear-link{
+    font-size:11px;
+    font-weight:600;
+    color:var(--accent);
+    cursor:pointer;
+    text-transform:none;
+    letter-spacing:0;
+  }
+  .clear-link:hover{ text-decoration:underline; }
+  .checkbox-row{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    padding:4px 0;
+    font-size:13px;
+  }
+  .checkbox-row input{ accent-color:var(--accent); width:14px; height:14px; cursor:pointer; }
+  .checkbox-row label{ cursor:pointer; }
+  .reset-all{
+    width:100%;
+    margin-top:6px;
+    padding:9px;
+    background:transparent;
+    border:1px solid var(--line);
+    border-radius:6px;
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--ink);
+    cursor:pointer;
+  }
+  .reset-all:hover{ background:#f1efe9; }
+  .results-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:14px;
+  }
+  .row-count{
+    font-family:var(--mono);
+    font-size:28px;
+    font-weight:700;
+    color:var(--accent);
+  }
+  .row-count-label{ font-size:12.5px; color:#6b6f76; }
+  .metrics-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+    gap:10px;
+    margin-bottom:20px;
+  }
+  .metric-card{
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:12px 14px;
+  }
+  .metric-label{
+    font-size:11px;
+    color:#6b6f76;
+    margin-bottom:4px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.03em;
+  }
+  .metric-value{
+    font-family:var(--mono);
+    font-size:19px;
+    font-weight:700;
+  }
+  .rec-section{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+  }
+  .rec-card{
+    border-radius:8px;
+    padding:12px 14px;
+    border:1px solid var(--line);
+  }
+  .rec-interview{ background:#eaf3ea; }
+  .rec-consider{ background:#fbf3e2; }
+  .rec-reject{ background:#f7e9e7; }
+  .empty-state{
+    color:#8a8d93;
+    font-size:13px;
+    padding:40px;
+    text-align:center;
+  }
+  .section-title{
+    font-size:11.5px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    color:#565a61;
+    margin:0 0 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Hireability Data Filter</h1>
+<div class="sub">Upload your results workbook, tick filters, read the aggregates. Everything runs locally in your browser.</div>
+
+<div class="upload-zone" id="uploadZone">
+  <input type="file" id="fileInput" accept=".xlsx,.xls,.csv">
+  <label class="upload-label" for="fileInput">Choose Excel file</label>
+  <div class="upload-status" id="uploadStatus">No file loaded yet — drag one in or click above.</div>
+</div>
+
+<div class="layout" id="app" style="display:none;">
+  <div class="panel filters-panel" id="filtersPanel"></div>
+  <div class="panel">
+    <div class="results-header">
+      <div>
+        <div class="row-count" id="rowCount">0</div>
+        <div class="row-count-label">rows matching current filters</div>
+      </div>
+    </div>
+
+    <div class="section-title">Score averages</div>
+    <div class="metrics-grid" id="metricsGrid"></div>
+
+    <div class="section-title">Recommendation breakdown</div>
+    <div class="rec-section" id="recSection"></div>
+  </div>
+</div>
+
+<script>
+const FILTER_COLUMNS = [
+  { key: 'Model_Name', label: 'Model Name' },
+  { key: 'Prompt_Version', label: 'Prompt Version' },
+  { key: 'JD_Region', label: 'JD Region' },
+  { key: 'JD_framing', label: 'JD Framing' },
+  { key: 'CV_framing', label: 'CV Framing' },
+];
+
+// Edit this to change how any filter value is DISPLAYED in the checkbox list.
+// The left side must exactly match the raw value in your Excel column;
+// filtering still happens on the raw value, so renaming here is purely cosmetic.
+// Any value not listed here just displays as-is.
+// EDIT THE RIGHT SIDE
+const DISPLAY_NAME_OVERRIDES = {
+  'gpt-4.1-mini': 'GPT-4.1 Mini',
+  'claude-haiku-4-5-20251001': 'Claude Haiku 4.5',
+  'gemini-2.5-flash': 'Gemini 2.5 Flash',
+  'meta-llama/llama-3.3-70b-instruct': 'Groq Llama 3.3 70B',
+  'hy3': 'Tencent Hy3',
+  'MiniMax-M3': 'MiniMax M3',
+  'deepseek-v4-pro': 'DeepSeek V4 Pro',
+  'mistral-medium-latest': 'Mistral Medium 3.5',
+  'aisingapore/Gemma-SEA-LION-v4-27B-IT': 'SEA-LION Gemma v4.5',
+  'qwen3.7-plus': 'Qwen 3.7 Plus',
+};
+
+function displayName(rawVal) {
+  return DISPLAY_NAME_OVERRIDES.hasOwnProperty(rawVal) ? DISPLAY_NAME_OVERRIDES[rawVal] : rawVal;
+}
+
+const SCORE_METRICS = [
+  { key: 'Hireability_Score', label: 'Hireability' },
+  { key: 'Competence_Score', label: 'Competence' },
+  { key: 'Fit_Score', label: 'Fit' },
+  { key: 'Performance_Score', label: 'Performance' },
+  { key: 'Leadership_Exhibited', label: 'Leadership Exhibited' },
+  { key: 'Leadership_Control', label: 'Leadership Control' },
+  { key: 'Leadership_Effective', label: 'Leadership Effective' },
+  { key: 'Leadership_Avg', label: 'Leadership Avg' },
+  { key: 'Status_Score', label: 'Status' },
+  { key: 'Warmth_Score', label: 'Warmth' },
+];
+
+let allRows = [];
+let selectedValues = {}; // { colKey: Set(values) }
+let availableValues = {}; // { colKey: [values] }
+
+const fileInput = document.getElementById('fileInput');
+const uploadZone = document.getElementById('uploadZone');
+const uploadStatus = document.getElementById('uploadStatus');
+const app = document.getElementById('app');
+const filtersPanel = document.getElementById('filtersPanel');
+
+fileInput.addEventListener('change', e => { if (e.target.files[0]) handleFile(e.target.files[0]); });
+uploadZone.addEventListener('dragover', e => { e.preventDefault(); uploadZone.classList.add('dragover'); });
+uploadZone.addEventListener('dragleave', () => uploadZone.classList.remove('dragover'));
+uploadZone.addEventListener('drop', e => {
+  e.preventDefault();
+  uploadZone.classList.remove('dragover');
+  if (e.dataTransfer.files[0]) handleFile(e.dataTransfer.files[0]);
+});
+
+function handleFile(file) {
+  uploadStatus.textContent = 'Reading ' + file.name + ' …';
+  const reader = new FileReader();
+  reader.onload = evt => {
+    try {
+      const wb = XLSX.read(evt.target.result, { type: 'array', cellDates: true });
+      const sheetName = wb.SheetNames[0];
+      const sheet = wb.Sheets[sheetName];
+      const json = XLSX.utils.sheet_to_json(sheet, { defval: null });
+      allRows = json;
+
+      // build available filter values
+      FILTER_COLUMNS.forEach(col => {
+        const set = new Set();
+        allRows.forEach(r => { if (r[col.key] !== null && r[col.key] !== undefined && r[col.key] !== '') set.add(String(r[col.key])); });
+        availableValues[col.key] = Array.from(set).sort();
+        selectedValues[col.key] = new Set(); // empty = no filter applied (show all)
+      });
+
+      uploadStatus.textContent = `Loaded ${allRows.length.toLocaleString()} rows from "${sheetName}" in ${file.name}.`;
+      buildFiltersUI();
+      app.style.display = 'grid';
+      applyFilters();
+    } catch (err) {
+      uploadStatus.textContent = 'Could not read that file: ' + err.message;
+    }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function buildFiltersUI() {
+  filtersPanel.innerHTML = '';
+  FILTER_COLUMNS.forEach(col => {
+    const group = document.createElement('div');
+    group.className = 'filter-group';
+
+    const header = document.createElement('div');
+    header.className = 'filter-group-header';
+    header.innerHTML = `<span>${col.label}</span><span class="clear-link" data-col="${col.key}">Clear</span>`;
+    group.appendChild(header);
+
+    (availableValues[col.key] || []).forEach(val => {
+      const row = document.createElement('div');
+      row.className = 'checkbox-row';
+      const id = `chk_${col.key}_${val}`.replace(/[^a-zA-Z0-9_]/g, '_');
+      row.innerHTML = `<input type="checkbox" id="${id}" data-col="${col.key}" data-val="${val}">
+                        <label for="${id}">${displayName(val)}</label>`;
+      group.appendChild(row);
+    });
+
+    filtersPanel.appendChild(group);
+  });
+
+  const resetBtn = document.createElement('button');
+  resetBtn.className = 'reset-all';
+  resetBtn.textContent = 'Reset all filters';
+  resetBtn.addEventListener('click', () => {
+    FILTER_COLUMNS.forEach(col => selectedValues[col.key].clear());
+    syncCheckboxes();
+    applyFilters();
+  });
+  filtersPanel.appendChild(resetBtn);
+
+  filtersPanel.addEventListener('change', e => {
+    if (e.target.matches('input[type=checkbox]')) {
+      const col = e.target.dataset.col;
+      const val = e.target.dataset.val;
+      if (e.target.checked) selectedValues[col].add(val);
+      else selectedValues[col].delete(val);
+      applyFilters();
+    }
+  });
+
+  filtersPanel.addEventListener('click', e => {
+    if (e.target.matches('.clear-link')) {
+      const col = e.target.dataset.col;
+      selectedValues[col].clear();
+      syncCheckboxes();
+      applyFilters();
+    }
+  });
+}
+
+function syncCheckboxes() {
+  filtersPanel.querySelectorAll('input[type=checkbox]').forEach(cb => {
+    const col = cb.dataset.col, val = cb.dataset.val;
+    cb.checked = selectedValues[col].has(val);
+  });
+}
+
+function applyFilters() {
+  const filtered = allRows.filter(row => {
+    return FILTER_COLUMNS.every(col => {
+      const sel = selectedValues[col.key];
+      if (sel.size === 0) return true; // no filter on this column = pass
+      return sel.has(String(row[col.key]));
+    });
+  });
+  renderResults(filtered);
+}
+
+function avg(rows, key) {
+  const vals = rows.map(r => r[key]).filter(v => typeof v === 'number' && !isNaN(v));
+  if (vals.length === 0) return null;
+  return vals.reduce((a, b) => a + b, 0) / vals.length;
+}
+
+function renderResults(rows) {
+  document.getElementById('rowCount').textContent = rows.length.toLocaleString();
+
+  const metricsGrid = document.getElementById('metricsGrid');
+  metricsGrid.innerHTML = '';
+  SCORE_METRICS.forEach(m => {
+    const a = avg(rows, m.key);
+    const card = document.createElement('div');
+    card.className = 'metric-card';
+    card.innerHTML = `<div class="metric-label">${m.label}</div>
+                       <div class="metric-value">${a === null ? '—' : a.toFixed(2)}</div>`;
+    metricsGrid.appendChild(card);
+  });
+
+  const total = rows.length;
+  const interviewCount = rows.filter(r => r.Recommendation === 'Interview' || r.Recommendation === 'Strong Interview').length;
+  const considerCount = rows.filter(r => r.Recommendation === 'Consider').length;
+  const rejectCount = rows.filter(r => r.Recommendation === 'Reject').length;
+
+  const pct = n => total === 0 ? '0.0%' : ((n / total) * 100).toFixed(1) + '%';
+
+  const recSection = document.getElementById('recSection');
+  recSection.innerHTML = `
+    <div class="rec-card rec-interview">
+      <div class="metric-label">Interview + Strong Interview</div>
+      <div class="metric-value">${interviewCount.toLocaleString()} (${pct(interviewCount)})</div>
+    </div>
+    <div class="rec-card rec-consider">
+      <div class="metric-label">Consider</div>
+      <div class="metric-value">${considerCount.toLocaleString()} (${pct(considerCount)})</div>
+    </div>
+    <div class="rec-card rec-reject">
+      <div class="metric-label">Reject</div>
+      <div class="metric-value">${rejectCount.toLocaleString()} (${pct(rejectCount)})</div>
+    </div>`;
+}
+</script>
+</body>
+</html>

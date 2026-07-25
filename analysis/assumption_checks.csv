@@ -1,4 +1,11 @@
 Prompt_Version,Industry,JD_Region,JD_framing,Seniority_level,CV_framing,Model_Origin,Metric,Normality_p_value,Levene_p_value,Assumptions_Passed
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Hireability_Score,4.897490013396004e-08,0.0845925327412622,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Competence_Score,1.7324497589408543e-09,0.23378033649728355,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Fit_Score,4.897490013396004e-08,0.013436132967463925,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Performance_Score,4.897490013396004e-08,0.16267411777950247,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Leadership_Avg,7.766376725845856e-12,3.5742682957969296e-05,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Status_Score,1.0146373947552399e-08,0.56071085727989,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,China,Warmth_Score,0.0,3.118861611993197e-05,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,USA,Hireability_Score,1.803187030677128e-10,0.00020418902979877864,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,USA,Competence_Score,7.766376725845942e-12,0.00036379624047713,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,6.0977993689592655e-05,False
@@ -6,6 +13,13 @@ region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,1.7832852553163657e-10,0.010882260343138335,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,7.839419647182021e-07,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.023527185121659508,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Hireability_Score,4.8081231420595115e-09,0.32816276908574854,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.00024442284730760944,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Fit_Score,1.0146373947552326e-08,0.8866556321698184,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Performance_Score,4.8081231420595115e-09,0.0015134215796694989,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,5.142386896115258e-09,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Status_Score,5.981489887632116e-10,0.05875945103129224,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,China,Warmth_Score,1.7832852553163528e-10,0.0771977823225488,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,USA,Hireability_Score,4.8081231420595115e-09,0.00017184789542678736,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,USA,Competence_Score,4.4017198651534915e-11,7.553336343830512e-21,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,USA,Fit_Score,4.8081231420595115e-09,1.68693911984898e-06,False
@@ -13,6 +27,13 @@ region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,USA,Leadership_Avg,4.4017198651534915e-11,3.9344302138268156e-16,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,USA,Status_Score,1.7832852553163657e-10,0.001112654702575186,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Entry-Level,Communal,USA,Warmth_Score,7.563926247308895e-09,0.059580650836735825,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Hireability_Score,4.4017198651534915e-11,0.0027805940557509476,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Competence_Score,7.766376725845856e-12,0.0007228491140524095,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Fit_Score,1.1276526727470863e-09,0.008646916853754138,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Performance_Score,4.4017198651534915e-11,0.0021375374223759724,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Leadership_Avg,0.0,5.275436724717517e-07,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Status_Score,0.0,6.58651744521749e-14,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.001573099400451681,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,USA,Hireability_Score,2.0942965174732514e-08,0.30944583832847206,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,USA,Competence_Score,1.7832852553163528e-10,0.41627471384694525,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,USA,Fit_Score,8.605978488321728e-09,0.7482395696814337,False
@@ -20,6 +41,13 @@ region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,4.432146465667962e-09,0.002288253841304794,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,USA,Status_Score,1.7832852553163528e-10,0.07442684984263773,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.008305553503756717,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Hireability_Score,0.0,3.702481260734488e-05,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.08214607140933508,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Fit_Score,7.766376725845856e-12,0.0001163056264685748,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Performance_Score,0.0,5.615779445517671e-06,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Leadership_Avg,0.0,0.0010715500250554622,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Status_Score,0.0,7.888715963213384e-06,False
+region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.028519829302203183,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,USA,Hireability_Score,1.1276526727470863e-09,0.15836702621240833,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,USA,Competence_Score,0.0,0.00718733546154316,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,USA,Fit_Score,5.981489887632116e-10,0.06313758429932055,False
@@ -27,6 +55,13 @@ region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communa
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,USA,Leadership_Avg,1.803187030677128e-10,0.005150657676857585,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.13636330783903466,False
 region,Procurement / Sourcing / Supply Chain,China,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.4017198651534915e-11,1.3154802335173113e-07,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Hireability_Score,2.106946320370521e-07,0.03826755173315294,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,5.8112882336294375e-05,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Fit_Score,2.0942965174732514e-08,0.031080466476429633,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Performance_Score,4.432146465667962e-09,0.00034913817567115886,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.7832852553163528e-10,0.00035537306653953145,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Status_Score,5.981489887632073e-10,0.011576959768120945,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,2.811955258480561e-05,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,USA,Hireability_Score,4.4321464656679935e-09,0.05782748570258656,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.0001998369192317575,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,4.052615465232248e-05,False
@@ -34,6 +69,13 @@ region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,U
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,0.03841442436188,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,7.095199354739508e-06,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Agentic,USA,Warmth_Score,0.0,0.061661204799141105,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Hireability_Score,1.1502053382187131e-07,0.031348166093977996,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Competence_Score,5.981489887632116e-10,0.16651391173941169,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Fit_Score,1.6113376494592636e-06,0.10422410402068763,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Performance_Score,1.8231743635890713e-07,0.2646983491691663,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Leadership_Avg,0.0,0.04714029696030121,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Status_Score,3.9143941307130164e-08,0.7640706098860811,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.0029608098937461552,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,USA,Hireability_Score,4.8081231420595115e-09,0.0008356076230187889,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,USA,Competence_Score,1.7832852553163528e-10,0.0035541192353896914,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,USA,Fit_Score,4.8081231420595115e-09,0.0010617226108540604,False
@@ -41,6 +83,13 @@ region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,USA,Leadership_Avg,7.766376725845856e-12,0.0012012778810892837,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,USA,Status_Score,1.7832852553163657e-10,0.45870903237765703,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Entry-Level,Communal,USA,Warmth_Score,7.563926247308895e-09,0.0011250471129900712,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Hireability_Score,4.4017198651534915e-11,0.025676412688251576,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Competence_Score,7.766376725845856e-12,0.00726008415365262,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Fit_Score,0.0,0.0013597843220907644,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Performance_Score,7.766376725845856e-12,0.026060039969828055,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Leadership_Avg,0.0,0.00012200424435116177,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Status_Score,0.0,9.739755597176354e-08,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,0.0067342066959720885,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,USA,Hireability_Score,2.359594199172003e-09,0.1420554410115794,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,USA,Competence_Score,7.766376725845942e-12,0.16823615635236583,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,0.05401657357024868,False
@@ -48,6 +97,13 @@ region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,1.0232811721895033e-07,0.11574905739498464,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,USA,Status_Score,7.766376725845856e-12,0.011054663131907125,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.0015730994004516919,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Hireability_Score,4.4017198651534915e-11,0.30330822532297963,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Competence_Score,0.0,0.05708631422526442,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Fit_Score,5.981489887632073e-10,0.09092459688752119,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Performance_Score,4.4017198651534915e-11,0.02762988025613214,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Leadership_Avg,0.0,8.514649700289665e-06,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,4.917285141454062e-15,False
+region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.00718733546154316,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,USA,Hireability_Score,1.7324497589408543e-09,0.019952989229551493,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845856e-12,0.0017139355265837488,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,USA,Fit_Score,3.9143941307130164e-08,0.05178647294138904,False
@@ -55,6 +111,13 @@ region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,USA,Leadership_Avg,1.7324497589408543e-09,2.9254591044443175e-10,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,USA,Status_Score,1.1276526727470863e-09,0.0006367859951164874,False
 region,Procurement / Sourcing / Supply Chain,China,Neutral,Senior-Level,Communal,USA,Warmth_Score,5.981489887632116e-10,0.08524554978280692,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Hireability_Score,1.7324497589408543e-09,0.008125598154471607,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Competence_Score,1.7832852553163657e-10,0.16135060154928377,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Fit_Score,4.8974900133960605e-08,0.008046503963933466,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Performance_Score,4.8974900133960605e-08,0.00044619903056994863,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Leadership_Avg,0.0,9.634812713452952e-06,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Status_Score,4.432146465667962e-09,0.03155288820133501,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,China,Warmth_Score,0.0,0.0005248501703679019,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,USA,Hireability_Score,1.1276526727470863e-09,3.319612002078788e-06,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.0008991847082350492,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,3.9145774455696046e-10,False
@@ -62,6 +125,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,4.4017198651534915e-11,0.0005095578590225643,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,4.8523263148685516e-05,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,2.052923835256564e-05,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Hireability_Score,4.808123142059477e-09,0.2565445522229561,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Competence_Score,1.7832852553163528e-10,0.058759451031292265,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Fit_Score,2.0942965174732514e-08,0.08314362260334156,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Performance_Score,5.981489887632073e-10,0.0033552670634967568,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,3.919990846257317e-11,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Status_Score,1.7832852553163528e-10,0.0027297408337254286,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,China,Warmth_Score,1.1276526727471026e-09,0.0021985039253376725,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,USA,Hireability_Score,1.7832852553163657e-10,2.454668883619621e-08,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,USA,Competence_Score,0.0,8.65824846659508e-08,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,USA,Fit_Score,1.7832852553163657e-10,2.1215893360527976e-14,False
@@ -69,6 +139,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communa
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,USA,Leadership_Avg,0.0,1.0773796121649401e-12,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,USA,Status_Score,7.766376725845856e-12,0.0001325824156035692,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Entry-Level,Communal,USA,Warmth_Score,1.0232811721894976e-07,0.46887158499092085,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Hireability_Score,7.766376725845942e-12,0.008128897289365172,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Competence_Score,1.7832852553163657e-10,0.007889164439800965,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Fit_Score,0.0,0.0020246650832075976,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Performance_Score,7.766376725845942e-12,0.006517180526627032,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Leadership_Avg,0.0,0.0003946113429231956,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Status_Score,0.0,1.7157009649014334e-13,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.0002512949965184217,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,USA,Hireability_Score,1.1276526727471026e-09,0.0007167658211977833,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,USA,Competence_Score,4.4017198651534915e-11,0.07609133118169988,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,USA,Fit_Score,1.1276526727471026e-09,0.19233208878576397,False
@@ -76,6 +153,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agenti
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,4.4017198651534915e-11,0.004938164835901814,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,USA,Status_Score,4.4017198651534915e-11,0.061095965324585735,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,0.4543380332981287,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Hireability_Score,7.766376725845856e-12,4.29085076298685e-06,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Competence_Score,0.0,0.00226283620020166,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Fit_Score,7.766376725845856e-12,2.3023442068278096e-06,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Performance_Score,0.0,4.227184198177977e-06,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,0.041057171552630445,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,3.90028318231593e-05,False
+region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.009422661045490026,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,USA,Hireability_Score,4.4017198651534915e-11,0.02088159953270235,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,USA,Competence_Score,0.0,0.0005710207967952379,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,USA,Fit_Score,7.766376725845856e-12,0.0008182797205802344,False
@@ -83,6 +167,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Commun
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,USA,Leadership_Avg,1.7832852553163657e-10,0.0020718829082088815,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,USA,Status_Score,7.766376725845942e-12,0.06576761833323001,False
 region,Procurement / Sourcing / Supply Chain,Europe,Balanced,Senior-Level,Communal,USA,Warmth_Score,1.7832852553163528e-10,9.908092006227147e-08,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Hireability_Score,2.1069463203704973e-07,0.27023321361992997,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,0.00026564978872657707,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Fit_Score,8.191885796000465e-07,0.17175217649702323,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Performance_Score,1.1502053382187131e-07,0.01051747914275012,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Leadership_Avg,7.766376725845856e-12,0.0008405122832485329,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Status_Score,2.0942965174732514e-08,0.08992108486283816,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,2.3023442068278096e-06,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,USA,Hireability_Score,1.6643906775360467e-08,0.28446575833655025,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,9.054923092201242e-11,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,2.2678164407140734e-07,False
@@ -90,6 +181,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,0.0,0.0001384414279293643,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,5.354412586721465e-08,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Agentic,USA,Warmth_Score,4.4321464656679935e-09,0.652750202539164,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Hireability_Score,3.317337834688198e-08,0.017413839020574598,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Competence_Score,7.61924012987585e-10,0.08306051737863462,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Fit_Score,1.4548684222093472e-07,0.04654564613630841,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Performance_Score,6.640075540820181e-08,0.018826325234661614,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Leadership_Avg,0.0,0.0002748727322940318,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Status_Score,6.640075540820181e-08,0.41104174275425875,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,China,Warmth_Score,5.981489887632181e-10,1.3321464249992548e-05,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,USA,Hireability_Score,3.317337834688198e-08,0.002186599536227829,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,USA,Competence_Score,1.7832852553163657e-10,0.0006970659524100391,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,USA,Fit_Score,1.0146373947552326e-08,1.838060802612438e-07,False
@@ -97,6 +195,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,USA,Leadership_Avg,7.766376725845856e-12,0.0017757289671072214,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,USA,Status_Score,1.7324497589408543e-09,0.4954065523110014,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Entry-Level,Communal,USA,Warmth_Score,1.0146373947552399e-08,0.3316147656031125,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Hireability_Score,1.803187030677128e-10,2.3104339862384993e-07,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Competence_Score,7.766376725845856e-12,0.00019624163085012625,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Fit_Score,7.766376725845942e-12,4.8724401088300775e-08,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Performance_Score,7.766376725845856e-12,2.6764610742545343e-05,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Leadership_Avg,0.0,1.1273474553775123e-06,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Status_Score,7.766376725845856e-12,7.57220846637842e-05,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,0.0002512949965184217,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,USA,Hireability_Score,4.371898415217211e-09,0.05423271604583307,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,USA,Competence_Score,4.4017198651534915e-11,0.054968245240799206,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,USA,Fit_Score,2.2505692840914705e-11,5.832284052918437e-05,False
@@ -104,6 +209,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,6.640075540820181e-08,0.2644733735266411,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,USA,Status_Score,2.9432415566184767e-11,0.018756833159917986,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,0.12952957509578916,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Hireability_Score,0.0,0.16823615635236586,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.4135692421278546,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Fit_Score,4.4017198651534915e-11,0.054968245240799206,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Performance_Score,0.0,0.012434868952078,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Leadership_Avg,0.0,1.7547914089049913e-06,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Status_Score,0.0,7.848030368472167e-12,False
+region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,China,Warmth_Score,1.7832852553163528e-10,0.14593874457736386,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,USA,Hireability_Score,7.766376725845942e-12,0.0002757566474256923,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,USA,Competence_Score,0.0,0.00036469021680314036,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,USA,Fit_Score,1.7832852553163657e-10,0.0003604193218804048,False
@@ -111,6 +223,13 @@ region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communa
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,USA,Leadership_Avg,0.0,5.065606603034345e-18,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,USA,Status_Score,0.0,7.258758825645151e-07,False
 region,Procurement / Sourcing / Supply Chain,Europe,Neutral,Senior-Level,Communal,USA,Warmth_Score,1.1276526727470863e-09,5.6188036113963184e-05,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Hireability_Score,1.7324497589408543e-09,0.1937410934482204,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Competence_Score,5.981489887632073e-10,0.13507430085475802,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Fit_Score,4.897490013396004e-08,0.03809767491114007,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Performance_Score,1.7324497589408543e-09,0.03474086334962078,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Leadership_Avg,0.0,7.887452898492324e-06,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Status_Score,5.981489887632073e-10,0.04660800673921728,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,China,Warmth_Score,0.0,7.937778047222222e-05,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,USA,Hireability_Score,1.803187030677128e-10,0.0005948724907936376,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,USA,Competence_Score,7.766376725845856e-12,0.00748256363431372,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,USA,Fit_Score,4.4017198651534915e-11,4.6911183132206784e-07,False
@@ -118,6 +237,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agen
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,4.788981487479443e-10,0.05565650262489525,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,2.3292450648778084e-05,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Agentic,USA,Warmth_Score,0.0,5.726855773276175e-10,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Hireability_Score,4.432146465667962e-09,0.283692270144578,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.00024442284730760944,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Fit_Score,1.7324497589408543e-09,0.12445448290437586,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Performance_Score,2.0942965174732143e-08,0.011425729510528353,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Leadership_Avg,4.4017198651534915e-11,9.68591255246514e-11,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Status_Score,5.981489887632116e-10,0.2979223120550931,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,China,Warmth_Score,1.803187030677128e-10,0.00847291760704783,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,USA,Hireability_Score,5.981489887632073e-10,0.0005050895342126147,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,USA,Competence_Score,4.4017198651534915e-11,3.6886121962467063e-06,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,USA,Fit_Score,5.981489887632073e-10,1.1218185008412116e-09,False
@@ -125,6 +251,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Comm
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,USA,Leadership_Avg,0.0,0.0001710682024524598,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,USA,Status_Score,5.981489887632073e-10,0.013220469461497394,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Entry-Level,Communal,USA,Warmth_Score,2.0942965174732514e-08,0.6131089135364607,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Hireability_Score,0.0,1.934440172064058e-05,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Competence_Score,0.0,1.1273474553775123e-06,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Fit_Score,7.766376725845942e-12,0.00010287423299904203,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Performance_Score,0.0,2.2349032366429316e-08,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Leadership_Avg,0.0,7.481454432883932e-42,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Status_Score,0.0,4.2414329439311596e-05,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.0009929533744715059,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,USA,Hireability_Score,1.1276526727471026e-09,0.008885336251998766,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,USA,Competence_Score,4.4017198651534915e-11,0.08205344107954678,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,USA,Fit_Score,1.1276526727471026e-09,0.018965578089481322,False
@@ -132,6 +265,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Age
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,4.4017198651534915e-11,1.4088554986989442e-06,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,USA,Status_Score,4.4017198651534915e-11,0.002147360595118019,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.0018888474870171602,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Hireability_Score,0.0,0.017697957559852134,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.6522825706491725,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Fit_Score,7.766376725845856e-12,0.01307679598368369,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Performance_Score,0.0,0.0009501149963352915,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Leadership_Avg,0.0,0.009277910869084399,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Status_Score,0.0,2.6363783339569616e-47,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.021165082462436396,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,USA,Hireability_Score,4.4017198651534915e-11,0.01842998868929951,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,USA,Competence_Score,0.0,0.00015511346351199402,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,0.004773494875878188,False
@@ -139,6 +279,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Com
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,USA,Leadership_Avg,7.766376725845942e-12,0.015416729750770157,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,USA,Status_Score,7.766376725845942e-12,0.022426449667790543,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Balanced,Senior-Level,Communal,USA,Warmth_Score,5.981489887632116e-10,3.021137321209098e-07,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Hireability_Score,2.1069463203704973e-07,0.013798009472815446,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Competence_Score,1.7832852553163528e-10,0.000652008695168764,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Fit_Score,2.7454065372795686e-06,0.6116700340537382,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Performance_Score,2.1069463203704973e-07,0.1612329142793449,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.7832852553163528e-10,0.012096003409452388,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Status_Score,3.914394130713038e-08,0.07812160986991068,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,China,Warmth_Score,4.4017198651534915e-11,1.1246157363256574e-05,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,USA,Hireability_Score,1.6643906775360467e-08,0.002587704740351385,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,3.3901945468594236e-09,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,2.040375548515683e-05,False
@@ -146,6 +293,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agent
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,0.0005684417478514929,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,1.2527122186066848e-07,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,0.018575472261273193,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Hireability_Score,1.0146373947552326e-08,0.011388634238704622,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Competence_Score,5.981489887632116e-10,0.04873264796532372,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Fit_Score,1.0146373947552326e-08,0.005346878803249759,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Performance_Score,1.4329627027530647e-07,0.11743964289910143,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Leadership_Avg,0.0,0.0010182524406869415,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Status_Score,4.432146465667962e-09,0.03799806441201335,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,China,Warmth_Score,1.7832852553163657e-10,0.003486033352054871,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,USA,Hireability_Score,5.981489887632073e-10,0.00024413137724312627,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,USA,Competence_Score,1.7832852553163657e-10,1.7504524415411988e-09,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,USA,Fit_Score,4.8081231420595115e-09,8.086973187376341e-08,False
@@ -153,6 +307,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Commu
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,USA,Leadership_Avg,7.766376725845856e-12,0.0022054005670540215,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,USA,Status_Score,5.981489887632073e-10,0.14406936390451422,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Entry-Level,Communal,USA,Warmth_Score,1.6643906775360404e-08,0.5718109064297152,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Hireability_Score,4.4017198651534915e-11,4.092246647041604e-05,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,0.0016708150628601903,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Fit_Score,1.803187030677128e-10,0.0006074623677303136,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Performance_Score,4.4017198651534915e-11,0.0023551018300654023,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Leadership_Avg,0.0,6.718923883597748e-07,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Status_Score,0.0,8.72542710549919e-06,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,0.028571709561812722,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,USA,Hireability_Score,1.9263885276129072e-10,0.005280439633624564,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,USA,Competence_Score,1.7832852553163657e-10,0.10360211158941757,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,USA,Fit_Score,6.129504020594693e-11,0.005669355558133375,False
@@ -160,6 +321,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agen
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,1.7324497589408543e-09,0.03431082128418073,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,USA,Status_Score,1.0234976102365076e-10,0.0006353518602718461,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.7315393409661062,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Hireability_Score,0.0,0.2565445522229558,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.5520928086132924,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Fit_Score,0.0,0.026097831362604514,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Performance_Score,0.0,0.14978472691596798,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,0.006008505001435498,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Status_Score,0.0,8.045478882169302e-10,False
+region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.033682028741264664,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,USA,Hireability_Score,4.4017198651534915e-11,0.002621763244444464,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,USA,Competence_Score,0.0,0.001072014644249717,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,0.009877548845406548,False
@@ -167,6 +335,13 @@ region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Comm
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,USA,Leadership_Avg,0.0,1.6005150701377836e-07,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,USA,Status_Score,0.0,0.00019058562228759272,False
 region,Procurement / Sourcing / Supply Chain,Singapore,Neutral,Senior-Level,Communal,USA,Warmth_Score,5.981489887632116e-10,0.016347697863034243,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Hireability_Score,1.7324497589408543e-09,2.4341752382310855e-05,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,0.00039965395326467236,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Fit_Score,4.8974900133960605e-08,0.16991225592430606,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Performance_Score,4.8974900133960605e-08,0.09780813474799967,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Leadership_Avg,0.0,0.00274424401531137,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Status_Score,4.4017198651534915e-11,0.006934443311363184,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.00019297976069655677,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,USA,Hireability_Score,1.1276526727470863e-09,0.003499927936355975,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,USA,Competence_Score,7.766376725845942e-12,2.3023442068278096e-06,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,9.912799052553166e-05,False
@@ -174,6 +349,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,US
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,7.766376725845942e-12,0.006522522492659534,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,4.0474549978591047e-07,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Agentic,USA,Warmth_Score,0.0,5.0164819368131845e-05,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Hireability_Score,7.61924012987585e-10,0.12191405885982574,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Competence_Score,4.4017198651534915e-11,5.517634901660735e-05,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Fit_Score,2.3717619973143562e-08,0.19906950183234753,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Performance_Score,4.8081231420595115e-09,0.005047242415546512,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,1.845090284593473e-11,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Status_Score,1.7832852553163528e-10,0.0005621675914167928,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.015438683302641686,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,USA,Hireability_Score,1.7324497589408543e-09,0.0306911326220805,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,USA,Competence_Score,1.7832852553163657e-10,0.0006068542346641045,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,USA,Fit_Score,1.7324497589408543e-09,0.00019995321109762484,False
@@ -181,6 +363,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,U
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,USA,Leadership_Avg,0.0,4.0945348404152495e-05,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,USA,Status_Score,1.7324497589408543e-09,0.046608006739217334,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Entry-Level,Communal,USA,Warmth_Score,2.211099244379871e-07,0.11835916880377456,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Hireability_Score,0.0,8.658248466595083e-08,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Competence_Score,0.0,8.884773135267948e-07,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Fit_Score,7.766376725845942e-12,1.3592406916746723e-06,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Performance_Score,7.766376725845856e-12,3.3439283688170305e-06,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Leadership_Avg,7.766376725845942e-12,3.5648385908028684e-06,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Status_Score,0.0,5.645697557794424e-07,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.15291474745325073,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,USA,Hireability_Score,4.808123142059477e-09,0.03193032274179966,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,USA,Competence_Score,4.4017198651534915e-11,0.04122428922680716,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,USA,Fit_Score,4.808123142059477e-09,0.06329969816410554,False
@@ -188,6 +377,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,U
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,1.7832852553163528e-10,4.7631833305835065e-06,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,USA,Status_Score,1.7832852553163528e-10,0.014382971210022005,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.00324644118202773,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Hireability_Score,7.766376725845856e-12,0.36297369691634596,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Competence_Score,0.0,0.14978472691596786,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Fit_Score,4.4017198651534915e-11,0.05596573239679117,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Performance_Score,7.766376725845856e-12,0.1671917087192483,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Leadership_Avg,0.0,0.000198840532150954,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,5.95052381902264e-06,False
+region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.015025977766597325,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,USA,Hireability_Score,4.4017198651534915e-11,0.05903431370234015,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,USA,Competence_Score,0.0,0.0005699093889563605,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,USA,Fit_Score,5.981489887632073e-10,0.022364882376694487,False
@@ -195,6 +391,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,USA,Leadership_Avg,0.0,0.0005798845364954976,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,USA,Status_Score,0.0,0.03032701459690221,False
 region,Procurement / Sourcing / Supply Chain,USA,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.4017198651534915e-11,2.7224465646997774e-09,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Hireability_Score,2.1069463203704973e-07,0.0004945882209137918,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Competence_Score,1.7832852553163528e-10,0.0008162751031183113,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Fit_Score,2.824240713027072e-07,0.0013641633696269031,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Performance_Score,2.1069463203704973e-07,6.927172673611002e-05,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.7832852553163528e-10,0.0025423342999390175,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Status_Score,4.432146465667962e-09,0.00907845613706135,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,5.947212504520668e-05,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA,Hireability_Score,1.0146373947552326e-08,0.3838137267609048,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.11768118185867499,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,0.00014191927779745275,False
@@ -202,6 +405,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,0.0,0.0002058046890008932,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,1.2179318130280663e-06,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Agentic,USA,Warmth_Score,1.803187030677128e-10,0.15677229381701632,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Hireability_Score,1.7324497589408543e-09,0.05089088448934352,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Competence_Score,4.4321464656679315e-09,0.13361938309126148,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Fit_Score,2.106946320370521e-07,0.044976840497860576,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Performance_Score,4.897490013396004e-08,0.0017876303477102986,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,0.00028091582628962203,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Status_Score,3.9143941307130164e-08,0.030579922178308662,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,China,Warmth_Score,1.803187030677128e-10,0.0027427696053137925,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,USA,Hireability_Score,1.6643906775360526e-08,0.12293283413477683,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,USA,Competence_Score,1.7832852553163657e-10,0.00046235665641458916,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,USA,Fit_Score,6.640075540820341e-08,0.00948498243453496,False
@@ -209,6 +419,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,US
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,USA,Leadership_Avg,4.4017198651534915e-11,0.00014744352086243552,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,USA,Status_Score,5.981489887632073e-10,0.0021464987094051593,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Entry-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.6852010924963783,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Hireability_Score,0.0,0.0006970659524100342,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Competence_Score,0.0,0.0012080633317246108,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Fit_Score,0.0,0.00036717406826328354,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Performance_Score,0.0,0.0020246650832076115,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Leadership_Avg,7.766376725845856e-12,0.00013149248532163686,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Status_Score,0.0,1.934440172064058e-05,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,0.5670084333808552,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,USA,Hireability_Score,2.359594199172003e-09,0.40777039067343446,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,USA,Competence_Score,7.766376725845942e-12,0.003867367408529196,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,0.004898520932883515,False
@@ -216,6 +433,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,US
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,1.7832852553163657e-10,0.01890242363377606,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,USA,Status_Score,7.766376725845856e-12,0.001449076844978767,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.0010948950998731285,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Hireability_Score,7.766376725845942e-12,0.21699036329191035,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Competence_Score,1.803187030677128e-10,0.515687961605878,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Fit_Score,1.7832852553163528e-10,0.704028654112204,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Performance_Score,7.766376725845942e-12,0.16092955603625533,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Leadership_Avg,7.766376725845856e-12,4.509625564139231e-11,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Status_Score,7.766376725845942e-12,0.0002536767358712525,False
+region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.0037859532781058473,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,USA,Hireability_Score,7.766376725845942e-12,4.714501854676423e-10,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845856e-12,6.922476195345593e-06,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,USA,Fit_Score,7.766376725845942e-12,0.0006906196314027603,False
@@ -223,6 +447,13 @@ region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,U
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,USA,Leadership_Avg,0.0,4.045426210050712e-19,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,USA,Status_Score,0.0,1.0467521089886374e-06,False
 region,Procurement / Sourcing / Supply Chain,USA,Neutral,Senior-Level,Communal,USA,Warmth_Score,3.317337834688198e-08,0.07519416074797632,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Hireability_Score,4.432146465667962e-09,0.115784131200226,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Competence_Score,7.766376725845856e-12,6.859242411159789e-05,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Fit_Score,1.7324497589408543e-09,0.10536225456941695,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Performance_Score,1.7324497589408543e-09,0.006026906813987624,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Leadership_Avg,4.22102127472441e-09,0.24282307376620746,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Status_Score,0.0,7.899954798032138e-06,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,6.655015094871227e-10,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,USA,Hireability_Score,4.808123142059477e-09,2.0847307440910563e-07,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.00021332084084072026,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,1.3999580995512178e-06,False
@@ -230,6 +461,13 @@ region,Project Management / Programme Management,China,Balanced,Entry-Level,Agen
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,3.740472414147628e-09,4.870196545109748e-09,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,USA,Status_Score,0.0,0.00025415123345853184,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.19059175427535036,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Hireability_Score,5.981489887632116e-10,0.008552378991920876,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Competence_Score,7.766376725845942e-12,0.001621199504394243,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Fit_Score,1.7832852553163528e-10,0.0037331167998504136,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Performance_Score,5.981489887632116e-10,0.026942953984116485,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Leadership_Avg,7.213318587261338e-10,0.1183940076027567,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Status_Score,0.0,0.0030982179873820202,False
+region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,China,Warmth_Score,4.8081231420595115e-09,0.019010012781624244,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,USA,Hireability_Score,1.7832852553163528e-10,0.000665272400082317,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.0012451491688555678,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,6.1610933607433364e-06,False
@@ -237,6 +475,13 @@ region,Project Management / Programme Management,China,Balanced,Entry-Level,Comm
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,USA,Leadership_Avg,2.914931013001846e-11,6.254991022144898e-05,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.0033107000588457553,False
 region,Project Management / Programme Management,China,Balanced,Entry-Level,Communal,USA,Warmth_Score,2.106946320370521e-07,0.5554748118846282,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Hireability_Score,7.766376725845942e-12,0.009447957807809078,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Competence_Score,0.0,0.00010910947000674747,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Fit_Score,7.766376725845856e-12,0.0005735388868177717,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Performance_Score,4.4017198651534915e-11,0.05903431370234015,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Leadership_Avg,4.4017198651534915e-11,0.11984586297323155,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Status_Score,4.4017198651534915e-11,0.10121450151534858,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,3.607155256809131e-05,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,USA,Hireability_Score,1.43296270275307e-07,0.6902789250707522,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,USA,Competence_Score,0.0,0.0015919050162642734,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,0.0010432664255907464,False
@@ -244,6 +489,13 @@ region,Project Management / Programme Management,China,Balanced,Senior-Level,Age
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,3.980386110804445e-06,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,USA,Status_Score,7.766376725845942e-12,0.02425253540979012,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,6.688489790485126e-06,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Hireability_Score,0.0,0.14147486993695538,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.0018888474870171602,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Fit_Score,0.0,0.043845568013033034,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Performance_Score,7.766376725845856e-12,0.1227570888034802,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Leadership_Avg,2.914931013001846e-11,0.06413302828629457,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Status_Score,0.0,0.04093636844001261,False
+region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,China,Warmth_Score,0.0,6.565010202892994e-05,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,USA,Hireability_Score,7.563926247308895e-09,0.015255334994109214,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.0018422121650897418,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,0.00162051656550685,False
@@ -251,6 +503,13 @@ region,Project Management / Programme Management,China,Balanced,Senior-Level,Com
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,USA,Leadership_Avg,1.6575325234782445e-10,0.03419404452082365,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.008303022191060837,False
 region,Project Management / Programme Management,China,Balanced,Senior-Level,Communal,USA,Warmth_Score,1.0146373947552326e-08,0.09032969401579134,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Hireability_Score,2.0942965174732143e-08,0.04025894270943103,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Competence_Score,7.766376725845856e-12,0.0011240732581905524,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Fit_Score,1.0146373947552326e-08,0.17077727354708214,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Performance_Score,2.0942965174732143e-08,0.12867377295043247,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Leadership_Avg,2.1697145493023814e-08,0.19767991841585023,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Status_Score,0.0,7.98817121478334e-10,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.10360211158941739,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,USA,Hireability_Score,1.7324497589408543e-09,0.10615206780401812,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,1.4651569360255178e-05,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,0.0014216143952624936,False
@@ -258,6 +517,13 @@ region,Project Management / Programme Management,China,Neutral,Entry-Level,Agent
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,1.7832852553163528e-10,8.661067083429874e-07,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,0.0025318529767218187,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845942e-12,1.0378064833718271e-12,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Hireability_Score,1.0146373947552326e-08,0.003843738098397627,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Competence_Score,0.0,8.180136098104876e-06,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Fit_Score,5.981489887632116e-10,0.0016348747910845676,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Performance_Score,4.432146465667962e-09,0.11576323142696598,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Leadership_Avg,8.666836560667414e-10,0.0032469340627491756,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Status_Score,0.0,0.0001055250491219421,False
+region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.00032743082656269885,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,USA,Hireability_Score,4.432146465667962e-09,0.08817059927928533,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,USA,Competence_Score,0.0,0.0071828067560153605,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,USA,Fit_Score,0.0,0.0003751531995620951,False
@@ -265,6 +531,13 @@ region,Project Management / Programme Management,China,Neutral,Entry-Level,Commu
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,USA,Leadership_Avg,1.0052372838038706e-10,0.013705298155095611,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,USA,Status_Score,0.0,0.00017644505383054284,False
 region,Project Management / Programme Management,China,Neutral,Entry-Level,Communal,USA,Warmth_Score,1.7324497589408543e-09,0.04331922701410845,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Hireability_Score,7.766376725845856e-12,0.02714449346058942,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Competence_Score,0.0,0.0006346972465915565,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Fit_Score,7.766376725845856e-12,0.023527185121659445,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Performance_Score,7.766376725845856e-12,0.03158550838657993,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Leadership_Avg,9.497431448013548e-11,0.01405320506756168,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Status_Score,7.766376725845856e-12,0.023527185121659508,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.027558092028799518,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,USA,Hireability_Score,1.803187030677128e-10,0.002002363089195775,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,USA,Competence_Score,7.766376725845856e-12,8.508313522836914e-06,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,0.0002972201366691222,False
@@ -272,6 +545,13 @@ region,Project Management / Programme Management,China,Neutral,Senior-Level,Agen
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,0.0,0.00017328208141513668,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,USA,Status_Score,7.766376725845856e-12,0.00017763696244763944,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.1013404596306715,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Hireability_Score,7.766376725845856e-12,0.07896798546692316,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.00015998342252420517,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Fit_Score,0.0,0.05692143915326194,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Performance_Score,7.766376725845942e-12,0.0007908203944362467,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Leadership_Avg,8.395005878473165e-10,0.7511136295956677,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,0.11658837988191253,False
+region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,2.721413254981736e-05,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,USA,Hireability_Score,2.0942965174732514e-08,0.0732319268991639,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,USA,Competence_Score,0.0,8.364541392758034e-08,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,USA,Fit_Score,7.766376725845942e-12,0.0013492902813871798,False
@@ -279,6 +559,13 @@ region,Project Management / Programme Management,China,Neutral,Senior-Level,Comm
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,USA,Leadership_Avg,1.1387866934808034e-10,0.017448364999987934,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,USA,Status_Score,7.766376725845942e-12,4.296699735709769e-05,False
 region,Project Management / Programme Management,China,Neutral,Senior-Level,Communal,USA,Warmth_Score,2.0942965174732514e-08,0.2718747352275826,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Hireability_Score,7.563926247308895e-09,0.0010583613153213594,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Competence_Score,7.766376725845856e-12,4.4181688611843676e-10,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Fit_Score,1.0232811721894976e-07,0.03963963556579715,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Performance_Score,1.1276526727470863e-09,0.0004604517155935735,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Leadership_Avg,4.124627485860666e-09,0.0850916050382088,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Status_Score,0.0,0.0007320609996413266,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,4.8724401088300775e-08,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,USA,Hireability_Score,1.7832852553163528e-10,0.0002823854155975733,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.36716849956469827,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,0.0003193614462628469,False
@@ -286,6 +573,13 @@ region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Age
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,2.3052814222165105e-09,1.4389591651072546e-06,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,USA,Status_Score,0.0,0.016824206673956194,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.0125527313575578,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Hireability_Score,1.7324497589408543e-09,1.1546850037843257e-06,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Competence_Score,7.766376725845942e-12,0.001646386150068308,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Fit_Score,5.981489887632116e-10,3.94424517219104e-05,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Performance_Score,1.7324497589408543e-09,0.07519416074797634,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Leadership_Avg,2.5200363817039428e-09,0.015135750434049139,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Status_Score,0.0,0.0003646902168031378,False
+region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,China,Warmth_Score,1.803187030677128e-10,1.1642779393070983e-06,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,USA,Hireability_Score,1.1276526727470863e-09,0.007748031180913662,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.0015303633661750808,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,0.0013064041063989946,False
@@ -293,6 +587,13 @@ region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Com
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,USA,Leadership_Avg,3.0989508062765917e-09,0.13781922829923238,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.0008672542533506456,False
 region,Project Management / Programme Management,Europe,Balanced,Entry-Level,Communal,USA,Warmth_Score,1.43296270275307e-07,0.28088956994499825,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Hireability_Score,0.0,0.0025318529767218187,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Competence_Score,0.0,0.00021332084084072026,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Fit_Score,7.766376725845856e-12,0.007151884464632888,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Performance_Score,0.0,0.002621191587428894,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Leadership_Avg,4.25926397993253e-09,0.12184528443048714,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Status_Score,0.0,0.00731382346372951,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.001117058077227403,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,USA,Hireability_Score,1.7324497589408543e-09,0.08275079248163425,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,USA,Competence_Score,0.0,1.662791950975256e-06,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,USA,Fit_Score,0.0,1.5842049044725703e-06,False
@@ -300,6 +601,13 @@ region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Ag
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,0.0,5.17624974827886e-05,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,USA,Status_Score,0.0,0.0003155907592161894,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,1.0508858075442324e-07,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Hireability_Score,4.4017198651534915e-11,0.8681706525848643,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Competence_Score,4.4017198651534915e-11,0.6637681467821932,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Fit_Score,0.0,0.19059175427535038,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Performance_Score,4.4017198651534915e-11,0.1013404596306715,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Leadership_Avg,7.153178887849449e-10,0.5225624155916846,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Status_Score,4.4017198651534915e-11,0.32816276908574843,False
+region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,China,Warmth_Score,0.0,0.0003234485119282888,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,USA,Hireability_Score,7.563926247308895e-09,0.05596573239679106,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.021933250170636034,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,0.007083906503753994,False
@@ -307,6 +615,13 @@ region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Co
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,USA,Leadership_Avg,1.6575325234782445e-10,0.16806093191413662,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.0008003391140767032,False
 region,Project Management / Programme Management,Europe,Balanced,Senior-Level,Communal,USA,Warmth_Score,1.0146373947552399e-08,0.4871403666878047,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Hireability_Score,7.563926247308895e-09,0.0014412226310629318,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,1.4762141556025913e-08,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Fit_Score,6.640075540820181e-08,0.007504516080363326,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Performance_Score,7.563926247308895e-09,5.1520820428616294e-05,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Leadership_Avg,3.321117259123866e-07,4.191508376034872e-05,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Status_Score,0.0,4.033026971529028e-11,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.0013923186572746865,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,USA,Hireability_Score,1.0146373947552399e-08,0.0005141042342419426,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,1.7351620670971645e-17,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,8.431559508783965e-07,False
@@ -314,6 +629,13 @@ region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agen
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,4.4321464656679315e-09,5.968092974908428e-08,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,2.5823441143849078e-08,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Agentic,USA,Warmth_Score,1.7832852553163657e-10,0.013669388324364718,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Hireability_Score,4.432146465667962e-09,0.013025297241829556,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Competence_Score,0.0,1.558990501070135e-07,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Fit_Score,4.432146465667962e-09,0.0007482918064367052,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Performance_Score,4.432146465667962e-09,4.566518514657967e-05,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Leadership_Avg,1.3976387819404476e-08,0.02046216515376959,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Status_Score,7.766376725845942e-12,0.00018104610358423258,False
+region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,China,Warmth_Score,7.766376725845856e-12,8.784992448711348e-06,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,USA,Hireability_Score,3.9143941307130164e-08,0.512108116552916,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,USA,Competence_Score,0.0,0.019065290336227683,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,USA,Fit_Score,7.766376725845942e-12,0.0049297095067422515,False
@@ -321,6 +643,13 @@ region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Comm
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,USA,Leadership_Avg,8.548216777110858e-09,0.010530295337292286,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,USA,Status_Score,0.0,8.24308164600822e-05,False
 region,Project Management / Programme Management,Europe,Neutral,Entry-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.7882901947132643,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Hireability_Score,0.0,0.0028031371818740053,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Competence_Score,0.0,6.447075795726181e-05,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Fit_Score,7.766376725845942e-12,0.008053835079046171,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Performance_Score,0.0,0.000606274298244554,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Leadership_Avg,7.766376725845856e-12,0.0002935783682399574,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Status_Score,0.0,2.480818641525452e-05,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.009211114039211803,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,USA,Hireability_Score,4.4017198651534915e-11,0.002305687115001691,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,USA,Competence_Score,0.0,8.672247113031807e-05,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,8.495580558904477e-05,False
@@ -328,6 +657,13 @@ region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Age
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,2.5773776446344765e-05,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,USA,Status_Score,0.0,7.478247512905594e-07,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Agentic,USA,Warmth_Score,4.432146465667962e-09,0.7482395696814337,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Hireability_Score,0.0,0.020446263056042017,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.05928515852213776,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Fit_Score,0.0,0.13041530343342833,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Performance_Score,7.766376725845856e-12,0.0019153196162280414,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Leadership_Avg,2.6612134671432287e-11,0.033092220383657264,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Status_Score,0.0,0.005563250046738007,False
+region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,China,Warmth_Score,0.0,2.295079345399844e-15,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,USA,Hireability_Score,1.43296270275307e-07,0.17911072199335462,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.00011946152276275588,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,USA,Fit_Score,7.766376725845942e-12,5.9347618977771905e-06,False
@@ -335,6 +671,13 @@ region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Com
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,USA,Leadership_Avg,9.009383314911206e-10,0.010765684515825661,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,USA,Status_Score,7.766376725845942e-12,0.0076242635510966215,False
 region,Project Management / Programme Management,Europe,Neutral,Senior-Level,Communal,USA,Warmth_Score,1.7324497589408543e-09,0.00013980811973927327,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Hireability_Score,1.7324497589408543e-09,0.01177505612190748,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Competence_Score,0.0,1.7953933221696194e-05,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Fit_Score,5.981489887632116e-10,0.060263827295901344,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Performance_Score,1.7324497589408543e-09,0.023368025269383055,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Leadership_Avg,1.1276526727470863e-09,0.06817090682920111,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Status_Score,0.0,1.5297927243486713e-07,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.0015816321671813312,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,USA,Hireability_Score,5.981489887632116e-10,0.0001170812827470565,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.0015593811677371895,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,1.4751174033313286e-07,False
@@ -342,6 +685,13 @@ region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,9.367534345164328e-11,4.2953515305368926e-08,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,USA,Status_Score,0.0,6.065923654821421e-07,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.029752078714039922,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Hireability_Score,1.7832852553163528e-10,0.02878834646252485,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Competence_Score,4.4017198651534915e-11,0.12952957509578925,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Fit_Score,1.7832852553163528e-10,0.014382971210022005,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Performance_Score,1.7832852553163528e-10,0.0016084439552656647,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Leadership_Avg,3.993394836134286e-08,0.00949640400659749,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Status_Score,0.0,0.007201234558810311,False
+region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,China,Warmth_Score,7.766376725845942e-12,0.0011240732581905524,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,USA,Hireability_Score,4.4017198651534915e-11,5.903450650265332e-07,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,USA,Competence_Score,4.4017198651534915e-11,4.923877611213352e-09,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,5.39567201099878e-06,False
@@ -349,6 +699,13 @@ region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,USA,Leadership_Avg,2.6612134671432287e-11,0.03323797297147225,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,USA,Status_Score,7.766376725845856e-12,6.377546795661834e-07,False
 region,Project Management / Programme Management,Singapore,Balanced,Entry-Level,Communal,USA,Warmth_Score,1.6643906775360404e-08,0.06624398180501916,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Hireability_Score,7.766376725845856e-12,0.11198255888567447,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Competence_Score,7.766376725845942e-12,0.012945415703452583,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Fit_Score,0.0,0.09137739639228515,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Performance_Score,1.7832852553163657e-10,0.12275708880348023,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Leadership_Avg,9.453326896226231e-10,0.13879194343862594,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Status_Score,1.7832852553163657e-10,0.4259872785562251,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.0004863722431086323,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,USA,Hireability_Score,1.1276526727470863e-09,5.171480957443311e-08,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,USA,Competence_Score,0.0,1.7157009649014334e-13,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,0.011757598288148539,False
@@ -356,6 +713,13 @@ region,Project Management / Programme Management,Singapore,Balanced,Senior-Level
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,0.00023639913117408997,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,USA,Status_Score,7.766376725845942e-12,5.399441178416361e-06,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,4.0363655503950836e-05,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Hireability_Score,7.766376725845942e-12,0.0043205615657122345,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,4.8370856134737955e-06,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Fit_Score,7.766376725845942e-12,0.00010413253712316256,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Performance_Score,1.803187030677128e-10,0.014290390811189628,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Leadership_Avg,6.553874207598066e-10,0.0035276786961690866,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Status_Score,1.803187030677128e-10,0.04524611165079652,False
+region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,China,Warmth_Score,0.0,9.628997995408286e-05,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,USA,Hireability_Score,5.981489887632116e-10,0.22406711673737267,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.07924704118988023,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,USA,Fit_Score,1.7832852553163528e-10,0.0024002298291183177,False
@@ -363,6 +727,13 @@ region,Project Management / Programme Management,Singapore,Balanced,Senior-Level
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,USA,Leadership_Avg,2.363951527297503e-10,0.16284253338513446,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,USA,Status_Score,1.7832852553163657e-10,0.010214056025613448,False
 region,Project Management / Programme Management,Singapore,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.4628163246914003,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Hireability_Score,1.7324497589408543e-09,0.00012191845870440517,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Competence_Score,0.0,2.822211200319726e-08,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Fit_Score,5.981489887632116e-10,0.00013269871862470707,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Performance_Score,1.7324497589408543e-09,8.146645366857778e-05,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.3063553657047682e-09,0.0041465816179039085,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Status_Score,0.0,0.0005384830690836993,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.0003702672247799323,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,USA,Hireability_Score,1.4329627027530647e-07,0.21802558326157398,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.0005710207967952379,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,9.51015135090109e-05,False
@@ -370,6 +741,13 @@ region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,A
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,1.1718171129943154e-09,1.640342554238791e-06,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,0.007115604175465826,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Agentic,USA,Warmth_Score,4.432146465667962e-09,0.45154618498348775,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Hireability_Score,1.7832852553163528e-10,2.7984054489535214e-05,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Competence_Score,7.766376725845942e-12,1.2283769458496765e-05,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Fit_Score,4.4017198651534915e-11,0.000166574844912755,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Performance_Score,1.7832852553163528e-10,9.298931539139989e-05,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Leadership_Avg,1.1436098075911907e-08,0.08270100450828635,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Status_Score,7.766376725845942e-12,0.007957243297978329,False
+region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,China,Warmth_Score,0.0,0.00012035310936647217,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,USA,Hireability_Score,1.0146373947552326e-08,0.024392736399686425,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.006619971256926002,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,1.3129813328536113e-07,False
@@ -377,6 +755,13 @@ region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,C
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,USA,Leadership_Avg,2.914931013001846e-11,0.0851574411925975,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,USA,Status_Score,7.766376725845856e-12,1.2614365371810675e-05,False
 region,Project Management / Programme Management,Singapore,Neutral,Entry-Level,Communal,USA,Warmth_Score,3.914394130713038e-08,0.6426401193553481,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Hireability_Score,0.0,0.04198070120128707,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Competence_Score,0.0,0.001094895099873136,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Fit_Score,0.0,0.2751228993245222,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Performance_Score,0.0,0.0009076762886045551,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Leadership_Avg,2.448354393497411e-10,0.011420907481226301,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Status_Score,0.0,0.0011192543112754094,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,3.607155256809131e-05,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,USA,Hireability_Score,1.0146373947552399e-08,0.03403250092416659,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,USA,Competence_Score,0.0,1.932219315303112e-07,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,6.882830639753789e-07,False
@@ -384,6 +769,13 @@ region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,7.675734905441725e-06,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,USA,Status_Score,0.0,9.095723843878276e-09,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.039181640759551425,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Hireability_Score,7.766376725845856e-12,0.05708631422526442,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.033682028741264664,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Fit_Score,0.0,0.015881245468883868,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Performance_Score,7.766376725845856e-12,0.06822409486729746,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Leadership_Avg,9.367534345164328e-11,0.06675833933381793,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,0.08574323399485859,False
+region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,8.508313522836914e-06,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,USA,Hireability_Score,2.106946320370521e-07,0.3031482897058025,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.01255273135755784,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,USA,Fit_Score,4.4017198651534915e-11,0.0040213709441313935,False
@@ -391,6 +783,13 @@ region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,USA,Leadership_Avg,3.2531528657497753e-10,0.0007001252856934105,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.008468224072175751,False
 region,Project Management / Programme Management,Singapore,Neutral,Senior-Level,Communal,USA,Warmth_Score,4.8081231420595115e-09,0.06324223749922994,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Hireability_Score,3.317337834688198e-08,0.050890884489343445,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Competence_Score,7.766376725845856e-12,1.875628426615691e-05,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Fit_Score,6.640075540820181e-08,0.38854648489533833,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Performance_Score,3.317337834688198e-08,0.001544118604892549,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Leadership_Avg,6.142100640597456e-07,0.10237872967403332,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Status_Score,0.0,6.384395350439842e-05,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,2.034168901148326e-05,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,USA,Hireability_Score,1.7832852553163528e-10,0.0046357438709797244,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.1671917087192483,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,1.2000802857558308e-07,False
@@ -398,6 +797,13 @@ region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agenti
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,7.213318587261338e-10,1.9472841957010362e-08,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,USA,Status_Score,0.0,0.001575873547436916,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.319942189756857,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Hireability_Score,2.0942965174732143e-08,0.037214962361847154,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Competence_Score,0.0,0.0004260057560532313,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Fit_Score,2.0942965174732143e-08,0.11153431142336966,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Performance_Score,2.0942965174732143e-08,0.052102140814770125,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Leadership_Avg,9.453326896226231e-10,0.013992510489892302,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Status_Score,0.0,0.00021918016429430445,False
+region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,China,Warmth_Score,0.0,1.025532444698854e-08,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,USA,Hireability_Score,4.4017198651534915e-11,4.922435928626871e-06,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.0007908203944362467,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,USA,Fit_Score,7.766376725845942e-12,3.2467222610475556e-10,False
@@ -405,6 +811,13 @@ region,Project Management / Programme Management,USA,Balanced,Entry-Level,Commun
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,USA,Leadership_Avg,4.229985909935437e-09,0.01584482375650441,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,USA,Status_Score,7.766376725845942e-12,2.346007373143837e-06,False
 region,Project Management / Programme Management,USA,Balanced,Entry-Level,Communal,USA,Warmth_Score,1.43296270275307e-07,0.9917771537874938,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Hireability_Score,7.766376725845942e-12,0.019799376957319457,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Competence_Score,0.0,2.9958084802972815e-06,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Fit_Score,4.4017198651534915e-11,0.09310675167497252,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Performance_Score,4.4017198651534915e-11,0.011467305648721915,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Leadership_Avg,1.3148768241108383e-09,0.11812983325720405,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Status_Score,7.766376725845942e-12,0.0040046207353228004,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.00010910947000674747,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,USA,Hireability_Score,4.808123142059477e-09,0.0001253313506491038,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,USA,Competence_Score,0.0,5.130034240415181e-08,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,USA,Fit_Score,7.766376725845942e-12,4.0607536749665996e-07,False
@@ -412,6 +825,13 @@ region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agent
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,7.766376725845856e-12,0.00011274285319349724,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,USA,Status_Score,7.766376725845942e-12,2.0311451348853043e-05,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,8.364541392758034e-08,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Hireability_Score,0.0,0.09137739639228515,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.161076664078588,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Fit_Score,0.0,0.057086314225264466,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Performance_Score,0.0,0.0059630190772791474,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Leadership_Avg,1.307685727583206e-09,0.024382611706410335,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,0.0026740399246466704,False
+region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,China,Warmth_Score,0.0,6.486352778837215e-07,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,USA,Hireability_Score,4.432146465667962e-09,0.009009054417554264,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.03671158433899063,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,USA,Fit_Score,1.7832852553163657e-10,7.448306778199094e-05,False
@@ -419,6 +839,13 @@ region,Project Management / Programme Management,USA,Balanced,Senior-Level,Commu
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,USA,Leadership_Avg,2.363951527297503e-10,0.02887476113269765,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.011934235292979335,False
 region,Project Management / Programme Management,USA,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.42363118702015956,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Hireability_Score,1.0232811721894976e-07,0.0066502173971731155,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Competence_Score,7.766376725845856e-12,0.0011569753003395436,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Fit_Score,3.9143941307130164e-08,0.03246980704782167,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Performance_Score,2.0942965174731842e-08,0.0005955037467154482,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Leadership_Avg,4.432146465667962e-09,0.0016956661585946099,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Status_Score,0.0,3.5668264155054954e-07,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.08870399204125212,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,USA,Hireability_Score,4.897490013396004e-08,0.06797228130941907,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.000240065058466712,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,0.0001392348128262666,False
@@ -426,6 +853,13 @@ region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,2.3526827140578085e-08,2.404518060950811e-05,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,5.33829463407965e-07,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Agentic,USA,Warmth_Score,1.7324497589408543e-09,0.09795219404937561,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Hireability_Score,4.432146465667962e-09,0.07039874419299147,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Competence_Score,0.0,0.0011240732581905524,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Fit_Score,1.7324497589408543e-09,0.0016084439552656647,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Performance_Score,4.432146465667962e-09,0.010185490950971265,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Leadership_Avg,2.5200363817039428e-09,0.08641273711540477,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Status_Score,0.0,0.00020568864310731505,False
+region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,China,Warmth_Score,0.0,1.5589905010701352e-07,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,USA,Hireability_Score,1.7324497589408543e-09,0.1654665004281451,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,USA,Competence_Score,0.0,0.0030390283477106884,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,USA,Fit_Score,7.766376725845942e-12,0.00023809013929415465,False
@@ -433,6 +867,13 @@ region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communa
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,USA,Leadership_Avg,2.6612134671432287e-11,0.010730448099857171,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,USA,Status_Score,0.0,1.921043551547145e-05,False
 region,Project Management / Programme Management,USA,Neutral,Entry-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.253266726012198,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Hireability_Score,7.766376725845856e-12,0.0022015819053449954,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Competence_Score,0.0,5.643394822089528e-18,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Fit_Score,7.766376725845856e-12,0.0024821149854659524,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Performance_Score,7.766376725845856e-12,2.1004546810333443e-05,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Leadership_Avg,7.766376725845856e-12,0.00029558543616005497,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Status_Score,7.766376725845856e-12,0.035094062438813224,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.007251577033470216,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,USA,Hireability_Score,1.7324497589408543e-09,0.00011958622185452957,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,USA,Competence_Score,0.0,3.4685525660796274e-07,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,5.7015585235514796e-05,False
@@ -440,6 +881,13 @@ region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agenti
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,0.0,2.1800072121990845e-09,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,USA,Status_Score,0.0,9.73975559717627e-08,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Agentic,USA,Warmth_Score,5.981489887632116e-10,0.009709973636658048,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Hireability_Score,7.766376725845856e-12,0.21311334071758933,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Competence_Score,0.0,0.0010685574442951561,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Fit_Score,0.0,0.05649829823345862,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Performance_Score,7.766376725845942e-12,0.06314934149770196,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Leadership_Avg,7.213318587261338e-10,0.13560009414473628,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Status_Score,7.766376725845942e-12,0.11198255888567439,False
+region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,China,Warmth_Score,0.0,0.0001929797606965553,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,USA,Hireability_Score,1.0146373947552326e-08,0.23309322155744985,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,USA,Competence_Score,0.0,0.00019058562228759272,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,USA,Fit_Score,0.0,0.001139325049951468,False
@@ -447,6 +895,13 @@ region,Project Management / Programme Management,USA,Neutral,Senior-Level,Commun
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,USA,Leadership_Avg,1.1276526727470776e-09,0.0004699719948727768,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,USA,Status_Score,0.0,0.00019051301640754246,False
 region,Project Management / Programme Management,USA,Neutral,Senior-Level,Communal,USA,Warmth_Score,7.563926247308895e-09,0.04670029811157139,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Hireability_Score,2.106946320370521e-07,0.08281546950359066,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Competence_Score,1.1276526727470863e-09,0.0006068542346641046,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Fit_Score,2.8242407130270624e-07,0.022723934746173235,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Performance_Score,3.914394130713038e-08,0.0059674658204612934,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Leadership_Avg,1.0232811721894976e-07,0.18118536190972645,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Status_Score,1.7324497589408543e-09,0.00029072714510382973,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,China,Warmth_Score,0.0,0.006517180526627039,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Hireability_Score,4.4017198651534915e-11,0.0003235165284831245,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.00016142042968462743,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,1.0263421927278016e-06,False
@@ -454,6 +909,13 @@ region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Perfo
 region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,8.683588953615335e-10,0.026573498917853773,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Status_Score,7.766376725845942e-12,7.713634968932605e-07,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,0.0037859532781058473,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Hireability_Score,3.091207912461917e-06,0.08440806690679127,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Competence_Score,5.981489887632073e-10,0.007340603037970709,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Fit_Score,6.755821147747492e-07,0.18028191710704225,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Performance_Score,1.0492720714325061e-06,0.0019263434803768423,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Leadership_Avg,1.0146373947552326e-08,0.5246570052291606,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Status_Score,6.640075540820341e-08,0.37140599972290533,False
+region,Sales / Business Development,China,Balanced,Entry-Level,Communal,China,Warmth_Score,1.7832852553163528e-10,0.014238091394972889,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Hireability_Score,2.9432415566184767e-11,0.007253177120317954,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Competence_Score,4.4017198651534915e-11,0.0032892772834318966,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Fit_Score,1.5934545221135135e-10,0.0008170939099887252,False
@@ -461,6 +923,13 @@ region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Perf
 region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Leadership_Avg,7.766376725845856e-12,0.0036096045208347657,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Status_Score,5.981489887632073e-10,0.04373282985186646,False
 region,Sales / Business Development,China,Balanced,Entry-Level,Communal,USA,Warmth_Score,4.808123142059477e-09,0.01591592140220619,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Hireability_Score,2.0942965174732143e-08,0.7516103083981299,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Competence_Score,1.7832852553163528e-10,0.8651405240907508,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Fit_Score,2.0942965174732143e-08,0.25023934240606804,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Performance_Score,6.640075540820181e-08,0.9405966722170488,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Leadership_Avg,2.0724191826849666e-10,0.028800634845814733,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Status_Score,4.4017198651534915e-11,0.041744255143779524,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,1.1059692064364943e-05,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Hireability_Score,7.563926247308895e-09,2.8169438540772694e-06,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Competence_Score,4.4017198651534915e-11,0.04048165843305347,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Fit_Score,1.7832852553163657e-10,8.897908842005995e-06,False
@@ -468,6 +937,13 @@ region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Perf
 region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,2.7770234151076702e-08,0.41263093178263077,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Status_Score,1.7324497589408543e-09,0.01810501262468361,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,7.857106476630209e-07,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Hireability_Score,1.803187030677128e-10,0.049130051796834266,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,6.02991293972831e-07,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Fit_Score,1.803187030677128e-10,0.06313758429932051,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Performance_Score,4.808123142059477e-09,0.15165524191292246,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Leadership_Avg,9.170839333324052e-11,1.7295898746097384e-05,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,0.0036499769724962715,False
+region,Sales / Business Development,China,Balanced,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.031602534017478506,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Hireability_Score,7.46425273556029e-09,0.1465585392061404,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Competence_Score,7.619240129875905e-10,0.2578608517135176,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Fit_Score,2.428229013612647e-09,0.12555662393586547,False
@@ -475,6 +951,13 @@ region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Per
 region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Leadership_Avg,1.4548684222093472e-07,0.007591933706225638,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Status_Score,4.1158110017537386e-08,0.6356660872067408,False
 region,Sales / Business Development,China,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.8081231420595115e-09,0.06923362027330272,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Hireability_Score,2.8242407130270454e-07,0.00021956474482917043,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Competence_Score,4.8081231420595115e-09,0.07823494408434647,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Fit_Score,4.897490013395953e-08,0.007463466958607811,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Performance_Score,2.8242407130270454e-07,0.004106089911511804,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.0232811721894976e-07,0.4683784978569083,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Status_Score,4.4321464656679315e-09,0.011908405840210249,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,China,Warmth_Score,0.0,0.0011101435308517034,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Hireability_Score,3.914394130713038e-08,0.20027341384820607,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.028218659112557973,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,7.393239573361349e-05,False
@@ -482,6 +965,13 @@ region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Perfor
 region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,4.808123142059477e-09,0.011003792424157763,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Status_Score,4.4017198651534915e-11,1.5242567336528033e-05,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,0.0070839065037539934,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Hireability_Score,6.640075540820316e-08,0.00829985183112628,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Competence_Score,1.1276526727470863e-09,0.0011383445778923279,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Fit_Score,1.8048364617492107e-06,0.0003240617590166018,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Performance_Score,4.432146465667962e-09,0.0013127222136381305,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Leadership_Avg,1.7324497589408543e-09,0.09418835897287528,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Status_Score,6.640075540820341e-08,0.28091588177550425,False
+region,Sales / Business Development,China,Neutral,Entry-Level,Communal,China,Warmth_Score,5.981489887632073e-10,0.056369620820578906,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Hireability_Score,1.0842539475146563e-08,0.07801436343705176,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.0005891523465605885,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Fit_Score,7.766376725845856e-12,0.04663906818341726,False
@@ -489,6 +979,13 @@ region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Perfo
 region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Leadership_Avg,7.766376725845856e-12,6.760001608355519e-05,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Status_Score,1.0234976102365076e-10,0.005233408031319639,False
 region,Sales / Business Development,China,Neutral,Entry-Level,Communal,USA,Warmth_Score,6.640075540820341e-08,0.38791261429375073,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Hireability_Score,4.432146465667962e-09,0.3294108542847686,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,0.13636330783903478,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Fit_Score,1.8231743635890917e-07,0.17788825409220294,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Performance_Score,6.640075540820181e-08,0.0920382757106619,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Leadership_Avg,7.887562506747063e-11,0.0012777014656259113,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Status_Score,7.766376725845942e-12,0.003079920124811327,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,4.227184198177977e-06,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Hireability_Score,3.317337834688198e-08,0.0021844021739711064,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Competence_Score,7.766376725845856e-12,0.0003702672247799323,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,7.520946539801258e-10,False
@@ -496,6 +993,13 @@ region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Perfo
 region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,3.1004801525765047e-09,0.08975703292150626,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Status_Score,7.766376725845856e-12,1.001555652535354e-07,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Agentic,USA,Warmth_Score,0.0,0.00019297976069655677,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Hireability_Score,3.317337834688198e-08,0.4683009841524267,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,9.785684642621628e-07,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Fit_Score,1.1502053382187131e-07,0.1804248096073636,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Performance_Score,2.587004151561452e-07,0.12188616597550278,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Leadership_Avg,4.4017198651534915e-11,0.005486784817653171,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Status_Score,1.7832852553163528e-10,0.12353272780927173,False
+region,Sales / Business Development,China,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.0014890682581764946,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Hireability_Score,3.275077886837611e-08,0.010182506227127469,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Competence_Score,4.4017198651534915e-11,2.2215306340306278e-05,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Fit_Score,6.129504020594693e-11,0.0013256133741277112,False
@@ -503,6 +1007,13 @@ region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Perf
 region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Leadership_Avg,1.1502053382187131e-07,0.023081046206053918,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Status_Score,1.0234976102365076e-10,0.0011562477008912177,False
 region,Sales / Business Development,China,Neutral,Senior-Level,Communal,USA,Warmth_Score,7.563926247308895e-09,0.14353913508449637,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Hireability_Score,1.7492653388044814e-06,0.00611457728514902,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Competence_Score,1.6643906775360467e-08,0.008271470045668028,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Fit_Score,3.317337834688198e-08,0.0008075149780294472,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Performance_Score,1.2534172922683787e-07,0.00938093457979867,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Leadership_Avg,1.4329627027530647e-07,0.22793862782385702,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Status_Score,7.766376725845942e-12,1.456214024355836e-07,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,China,Warmth_Score,7.766376725845942e-12,0.007201234558810311,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Hireability_Score,5.981489887632116e-10,0.016303322192884214,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.003815422543979241,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,0.0005846259226925982,False
@@ -510,6 +1021,13 @@ region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Perf
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,7.940358799690149e-09,0.2028300876920224,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Status_Score,1.7832852553163657e-10,1.2265481338075438e-07,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Agentic,USA,Warmth_Score,0.0,0.05596573239679106,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Hireability_Score,1.5531076629210067e-06,0.012731837693120477,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Competence_Score,1.7324497589408543e-09,0.011467305648721953,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Fit_Score,1.6485974623576748e-07,0.00022695680398988636,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Performance_Score,2.996886254188456e-07,0.0004771134602831028,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Leadership_Avg,1.7324497589408543e-09,0.03021701570441682,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Status_Score,3.914394130713038e-08,0.19022524215137976,False
+region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,China,Warmth_Score,5.981489887632116e-10,0.0008153594745291085,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Hireability_Score,2.4198548589270785e-10,0.018784582810468204,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Competence_Score,4.4017198651534915e-11,0.016162569475125413,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Fit_Score,9.306512190814628e-11,0.005166814718728022,False
@@ -517,6 +1035,13 @@ region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Per
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Leadership_Avg,4.4017198651534915e-11,0.04680391162681789,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.02488709635322736,False
 region,Sales / Business Development,Europe,Balanced,Entry-Level,Communal,USA,Warmth_Score,5.981489887632116e-10,0.025569982502157886,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Hireability_Score,3.9143941307130164e-08,0.1372382904672985,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Competence_Score,5.981489887632116e-10,0.5698663783523883,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Fit_Score,3.9143941307130164e-08,0.007965294665117069,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Performance_Score,6.640075540820181e-08,0.03280887645573769,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Leadership_Avg,1.408407077530394e-09,0.008204230272442615,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Status_Score,7.766376725845856e-12,0.00011729420311441257,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.0007226150762058308,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Hireability_Score,4.4321464656679315e-09,7.028366265260343e-06,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Competence_Score,4.4017198651534915e-11,0.0020246650832075976,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Fit_Score,1.7832852553163657e-10,1.2990166119566454e-05,False
@@ -524,6 +1049,13 @@ region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Per
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,1.2534172922683898e-07,0.1418010478257597,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Status_Score,5.981489887632073e-10,0.00020607684725715134,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,1.2873644249701012e-06,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Hireability_Score,1.6643906775360404e-08,0.05430292642222108,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Competence_Score,4.4017198651534915e-11,0.007382342137275134,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Fit_Score,4.897490013396004e-08,0.04048333328475997,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Performance_Score,4.897490013396004e-08,0.03335632327580881,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Leadership_Avg,8.395005878473165e-10,0.09503427842349088,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Status_Score,5.981489887632073e-10,0.0005111474880951858,False
+region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,China,Warmth_Score,1.803187030677128e-10,0.0027512129911667956,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Hireability_Score,4.1158110017537386e-08,0.13183593363780452,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Competence_Score,3.914394130713038e-08,0.9852770044795314,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Fit_Score,2.759776973132678e-08,0.23578569034231314,False
@@ -531,6 +1063,13 @@ region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Pe
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Leadership_Avg,3.321117259123823e-07,0.014396871816993043,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Status_Score,2.898124516772836e-07,0.4228188963810333,False
 region,Sales / Business Development,Europe,Balanced,Senior-Level,Communal,USA,Warmth_Score,1.7832852553163528e-10,0.5188189246022288,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Hireability_Score,3.321117259123823e-07,0.00023799913762591584,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Competence_Score,4.897490013395953e-08,0.11244250304209097,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Fit_Score,1.6113376494592454e-06,0.00046373137608940685,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Performance_Score,3.321117259123823e-07,1.6522022194603037e-05,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.7324497589408543e-09,0.015614911134742261,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Status_Score,1.7832852553163657e-10,2.1028634673181746e-05,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,China,Warmth_Score,1.803187030677128e-10,0.11908854534972277,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Hireability_Score,3.914394130713038e-08,0.012077123967820451,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Competence_Score,7.766376725845856e-12,0.1384495516903434,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,5.741355820019216e-05,False
@@ -538,6 +1077,13 @@ region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Perfo
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,5.981489887632116e-10,0.04060707607285449,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,2.091985901629108e-07,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845942e-12,0.03671158433899063,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Hireability_Score,1.2534172922683787e-07,0.0015462228448890904,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Competence_Score,5.981489887632073e-10,0.04272103005340435,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Fit_Score,1.256612982104215e-07,5.1108582265965735e-05,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Performance_Score,4.8081231420595115e-09,0.00018550629109626674,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Leadership_Avg,1.0146373947552326e-08,0.21012887885574968,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Status_Score,4.432146465667962e-09,0.029194194148060446,False
+region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.2622188807661698,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Hireability_Score,1.0842539475146563e-08,0.3461141161484212,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.007539307756991836,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Fit_Score,7.766376725845942e-12,0.0030757930890534654,False
@@ -545,6 +1091,13 @@ region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Perf
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Leadership_Avg,4.4017198651534915e-11,0.0031224060647174774,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Status_Score,7.766376725845856e-12,0.0022310780613408634,False
 region,Sales / Business Development,Europe,Neutral,Entry-Level,Communal,USA,Warmth_Score,1.1276526727470863e-09,0.03253786255333847,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Hireability_Score,2.0942965174732143e-08,0.4074561949685882,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Competence_Score,5.981489887632116e-10,0.513578991306896,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Fit_Score,3.9143941307130164e-08,0.052895364848792675,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Performance_Score,1.0232811721894976e-07,0.3057091678205031,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Leadership_Avg,2.0724191826849666e-10,0.0029638621967288488,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Status_Score,7.766376725845856e-12,0.0005919765470961834,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,China,Warmth_Score,0.0,0.19059175427535038,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Hireability_Score,2.106946320370521e-07,4.052615465232248e-05,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Competence_Score,7.766376725845856e-12,0.0005677931554724566,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,8.95992429976291e-08,False
@@ -552,6 +1105,13 @@ region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Perf
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,6.122932460105334e-07,0.37295077608171023,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Status_Score,7.766376725845856e-12,8.130861754027871e-06,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845942e-12,0.00010287423299904203,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Hireability_Score,5.981489887632116e-10,0.15936918283963877,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Competence_Score,4.4017198651534915e-11,0.12271124862103279,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Fit_Score,4.897490013396004e-08,0.17048250340859875,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Performance_Score,4.432146465667962e-09,0.13642395676390362,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Leadership_Avg,5.981489887632116e-10,0.00508892006110688,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Status_Score,1.7832852553163528e-10,0.017078658732156082,False
+region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.0013923186572746867,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Hireability_Score,1.9327547075319628e-09,0.012973919912547323,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.00812889728936517,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Fit_Score,6.129504020594693e-11,0.0065817044313925994,False
@@ -559,6 +1119,13 @@ region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Per
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Leadership_Avg,2.280012306019888e-08,0.003654379870381733,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Status_Score,1.0234976102365076e-10,0.0228946492295347,False
 region,Sales / Business Development,Europe,Neutral,Senior-Level,Communal,USA,Warmth_Score,4.4017198651534915e-11,0.3464676830392293,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Hireability_Score,2.1069463203704973e-07,0.08581226513459528,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Competence_Score,6.640075540820181e-08,0.1888504527730604,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Fit_Score,5.63860546429693e-07,0.00024260720305658025,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Performance_Score,5.307019056667568e-06,0.00029900414295282846,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Leadership_Avg,1.8231743635890917e-07,0.9616541901412315,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Status_Score,1.7324497589408543e-09,0.0010572814576052464,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,China,Warmth_Score,0.0,7.284849384436597e-05,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,Hireability_Score,5.981489887632116e-10,7.681424704129804e-05,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.0056546307690477264,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,0.00037568848683643824,False
@@ -566,6 +1133,13 @@ region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,P
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,1.1276526727470863e-09,0.04102666626172812,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,Status_Score,4.4017198651534915e-11,6.226829328115839e-05,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,0.0035541192353896914,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Hireability_Score,1.8231743635890917e-07,0.1890534737514311,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Competence_Score,1.7324497589408543e-09,0.00014386226145830878,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Fit_Score,3.4176214610323663e-06,0.1384927056036981,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Performance_Score,6.640075540820316e-08,0.0016587730864213108,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Leadership_Avg,2.0942965174732143e-08,0.20145725582279483,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Status_Score,3.914394130713038e-08,0.34426174415032673,False
+region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,China,Warmth_Score,5.981489887632116e-10,0.1291071928544226,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,Hireability_Score,1.0237458343941192e-09,0.004056305449004725,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,Competence_Score,1.7832852553163657e-10,0.031324999046221894,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,Fit_Score,3.9459575180086117e-10,0.006953907685907625,False
@@ -573,6 +1147,13 @@ region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,Leadership_Avg,4.4017198651534915e-11,0.0012681570689331175,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,Status_Score,7.766376725845942e-12,0.0014470209443846911,False
 region,Sales / Business Development,Singapore,Balanced,Entry-Level,Communal,USA,Warmth_Score,5.981489887632116e-10,0.03481561223462301,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Hireability_Score,2.668837540073413e-09,0.2302192989847399,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Competence_Score,1.7832852553163528e-10,0.14593874457736386,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Fit_Score,2.9968862541884333e-07,0.18018832948023228,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Performance_Score,8.37493174998655e-09,0.008276537491710374,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Leadership_Avg,2.3383835288163476e-10,0.00031500990078522375,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Status_Score,1.7832852553163528e-10,3.572140436947253e-05,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,4.8370856134737955e-06,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,Hireability_Score,1.1276526727470863e-09,1.017194641235873e-05,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,Competence_Score,7.766376725845942e-12,0.0003269495134863576,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,Fit_Score,4.4017198651534915e-11,2.1933944237709827e-07,False
@@ -580,6 +1161,13 @@ region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,1.2046746012759735e-07,0.1070063251228082,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,Status_Score,1.7832852553163657e-10,6.417071316015864e-05,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Agentic,USA,Warmth_Score,4.4017198651534915e-11,6.565010202892944e-05,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Hireability_Score,4.4017198651534915e-11,0.08122225215230751,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Competence_Score,4.4017198651534915e-11,7.283501314942967e-06,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Fit_Score,1.1276526727470863e-09,0.20716326087917097,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Performance_Score,1.7832852553163528e-10,0.033121955766948596,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Leadership_Avg,4.949244060876082e-11,4.961898967307119e-07,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Status_Score,7.766376725845856e-12,0.03567271661120014,False
+region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,China,Warmth_Score,0.0,0.010120211263296888,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA,Hireability_Score,2.898124516772836e-07,0.8772915399791444,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA,Competence_Score,4.432146465667962e-09,0.1778335126146427,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA,Fit_Score,1.2604695291892606e-08,0.17373637479331877,False
@@ -587,6 +1175,13 @@ region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA,Leadership_Avg,3.317337834688198e-08,0.004001052867532418,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA,Status_Score,2.106946320370521e-07,0.8355400553972224,False
 region,Sales / Business Development,Singapore,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.5336761161382488,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Hireability_Score,1.7492653388044867e-06,8.14032626323849e-05,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Competence_Score,1.0146373947552326e-08,0.08617187936455065,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Fit_Score,5.981489887632073e-10,3.717507727626513e-06,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Performance_Score,1.2534172922683787e-07,7.059415738922676e-07,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Leadership_Avg,1.0146373947552399e-08,0.49520391639658423,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Status_Score,4.432146465667962e-09,0.07042470833098913,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.02425253540979012,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Hireability_Score,3.914394130713038e-08,0.011013072196584124,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.01857547226127321,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,0.0008752108588135207,False
@@ -594,6 +1189,13 @@ region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Pe
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,4.4321464656679315e-09,0.1325246512087916,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,4.3279191479443585e-06,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Agentic,USA,Warmth_Score,0.0,8.937407386006061e-05,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Hireability_Score,5.741117064375102e-07,0.08287108055500772,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Competence_Score,4.432146465667962e-09,0.03539196426780138,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Fit_Score,3.3278512968696555e-07,0.02130830694785099,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Performance_Score,1.6485974623576748e-07,0.12236668392676366,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Leadership_Avg,1.0146373947552326e-08,0.07999598469613517,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Status_Score,6.640075540820341e-08,0.47799805337814794,False
+region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,China,Warmth_Score,1.1276526727470863e-09,0.0011251002761282743,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,Hireability_Score,2.1508926330919544e-08,0.1722490442297131,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.0013355419031507883,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,Fit_Score,7.766376725845856e-12,0.014735101738520277,False
@@ -601,6 +1203,13 @@ region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,P
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,Leadership_Avg,1.1276526727470863e-09,0.004295972549039797,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,Status_Score,7.766376725845942e-12,0.0014751701092096889,False
 region,Sales / Business Development,Singapore,Neutral,Entry-Level,Communal,USA,Warmth_Score,1.0146373947552326e-08,0.19383154017661683,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Hireability_Score,1.0146373947552326e-08,0.22852863827045844,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Competence_Score,5.981489887632116e-10,0.13205618937429667,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Fit_Score,1.0232811721894976e-07,0.7523545336139865,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Performance_Score,1.0232811721894976e-07,0.5548990892358137,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Leadership_Avg,1.7832852553163528e-10,0.01370815358799283,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Status_Score,7.766376725845942e-12,0.005802994815418045,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.00731382346372951,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,Hireability_Score,4.432146465667962e-09,0.00018155652463867594,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,Competence_Score,7.766376725845856e-12,0.0002636486137419109,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,4.849609791915502e-07,False
@@ -608,6 +1217,13 @@ region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,P
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,2.5823324501374167e-09,0.011968081638769118,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,Status_Score,7.766376725845856e-12,8.822651450661772e-07,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,2.052923835256564e-05,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Hireability_Score,4.808123142059477e-09,0.03474086334962074,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Competence_Score,5.981489887632116e-10,0.17489531167300362,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Fit_Score,1.660497062626807e-08,0.08936647745847312,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Performance_Score,2.0942965174732143e-08,0.2755994389128731,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Leadership_Avg,1.3352294293855978e-08,0.11574161309509018,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Status_Score,1.7832852553163528e-10,0.001072014644249717,False
+region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.32713556129995897,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,Hireability_Score,6.727172222802827e-10,0.005356679130308889,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.00021826633006133533,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,Fit_Score,2.2505692840914705e-11,1.3957367411684846e-05,False
@@ -615,6 +1231,13 @@ region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,Leadership_Avg,3.317337834688198e-08,0.03541439784242408,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,Status_Score,2.9432415566184767e-11,4.4077438768833466e-05,False
 region,Sales / Business Development,Singapore,Neutral,Senior-Level,Communal,USA,Warmth_Score,4.432146465667962e-09,0.7482395696814337,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Hireability_Score,1.7492653388044867e-06,0.0006286984617643843,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Competence_Score,3.317337834688198e-08,0.003816876103842432,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Fit_Score,4.937704421682033e-07,6.332326846463337e-05,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Performance_Score,6.376526698603202e-06,7.795194704309341e-05,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Leadership_Avg,1.7682433600401896e-06,0.3127670845018605,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Status_Score,1.7324497589408543e-09,1.4014698036895016e-06,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,China,Warmth_Score,0.0,7.20248554006068e-05,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Hireability_Score,5.981489887632116e-10,0.00014964617841611638,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Competence_Score,0.0,0.0037553408464574495,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Fit_Score,0.0,0.0005239329416520816,False
@@ -622,6 +1245,13 @@ region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Perform
 region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Leadership_Avg,8.589748966090231e-09,0.045930323084224324,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Status_Score,0.0,1.1901542955086189e-05,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.01446285308460827,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Hireability_Score,2.7454065372795686e-06,0.3994844215636072,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Competence_Score,5.981489887632073e-10,0.002564980008860094,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Fit_Score,1.256612982104215e-07,0.13528885817866346,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Performance_Score,1.43296270275307e-07,0.15100901353013021,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Leadership_Avg,6.640075540820181e-08,0.7720007694314185,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Status_Score,1.0146373947552326e-08,0.021078125762159963,False
+region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,China,Warmth_Score,1.7832852553163657e-10,0.19134672160897198,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Hireability_Score,4.9500610032082666e-11,0.0011844026858716964,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.008208281785186206,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Fit_Score,3.9459575180086117e-10,0.011531443888464549,False
@@ -629,6 +1259,13 @@ region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Perfor
 region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Leadership_Avg,1.7832852553163528e-10,0.018103807249201184,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Status_Score,7.766376725845942e-12,6.775979954094671e-06,False
 region,Sales / Business Development,USA,Balanced,Entry-Level,Communal,USA,Warmth_Score,1.7832852553163528e-10,0.001072014644249717,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Hireability_Score,4.432146465667962e-09,0.07586462194026831,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Competence_Score,4.4017198651534915e-11,0.0033107000588457783,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Fit_Score,2.0942965174732143e-08,0.03799806441201335,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Performance_Score,1.0146373947552326e-08,0.016703797874457842,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Leadership_Avg,5.660772476753971e-10,0.007110639843192887,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Status_Score,7.766376725845856e-12,0.0008948886456010325,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,China,Warmth_Score,0.0,0.002319725359278944,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Hireability_Score,4.808123142059477e-09,8.561139979643815e-07,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Competence_Score,7.766376725845942e-12,0.001444304559913786,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Fit_Score,1.7832852553163657e-10,1.0040491851264341e-05,False
@@ -636,6 +1273,13 @@ region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Perfor
 region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Leadership_Avg,2.3704813632401472e-06,0.6329330062204312,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Status_Score,5.981489887632073e-10,0.0013892640801020256,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Agentic,USA,Warmth_Score,0.0,4.5309786178466015e-08,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Hireability_Score,1.7832852553163528e-10,0.002544992799538088,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Competence_Score,7.766376725845856e-12,0.015393411853585183,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Fit_Score,1.6643906775360404e-08,0.06347651704978899,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Performance_Score,5.981489887632116e-10,0.0735659056746932,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Leadership_Avg,1.7832852553163528e-10,0.09622162749513635,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Status_Score,4.4017198651534915e-11,0.0533925964540219,False
+region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.0003670130306855284,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Hireability_Score,4.1158110017537386e-08,0.0037498823628714113,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Competence_Score,1.0146373947552326e-08,0.42363118702015934,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Fit_Score,4.010813694519493e-09,0.008593810650227032,False
@@ -643,6 +1287,13 @@ region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Perfo
 region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Leadership_Avg,3.317337834688198e-08,0.0001702785834959362,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Status_Score,2.898124516772836e-07,0.553213211299849,False
 region,Sales / Business Development,USA,Balanced,Senior-Level,Communal,USA,Warmth_Score,4.4017198651534915e-11,0.3708409518423747,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Hireability_Score,1.3708970624995578e-06,2.25783638512283e-05,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Competence_Score,4.937704421682033e-07,0.030579922178308662,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Fit_Score,4.937704421682033e-07,0.003310700058845755,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Performance_Score,4.2368171819583706e-06,0.04841032153939698,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Leadership_Avg,4.897490013395953e-08,0.02510636750632285,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Status_Score,5.981489887632073e-10,0.07410586179189636,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.04415140569733864,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Hireability_Score,2.0942965174731842e-08,0.010891097438173089,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Competence_Score,0.0,0.041359762114710645,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Fit_Score,0.0,0.00015728376572701658,False
@@ -650,6 +1301,13 @@ region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Performa
 region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Leadership_Avg,8.37493174998655e-09,0.1830428941295023,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Status_Score,0.0,1.9840112816716083e-06,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Agentic,USA,Warmth_Score,7.766376725845942e-12,0.0003611345825196901,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Hireability_Score,1.4177086658571468e-07,0.0035694267089339286,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Competence_Score,7.766376725845942e-12,8.817630555713945e-06,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Fit_Score,2.6318372514625857e-07,0.0016668310359030593,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Performance_Score,2.3717619973143393e-08,0.0030722394866150517,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Leadership_Avg,3.9143941307130164e-08,0.4691356877379548,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Status_Score,4.4321464656679315e-09,0.024385351082731557,False
+region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,China,Warmth_Score,4.4017198651534915e-11,0.0001541961237626317,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Hireability_Score,2.1508926330919544e-08,0.1746857807976733,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Competence_Score,7.766376725845942e-12,0.004906122501669639,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Fit_Score,1.8684826268388315e-11,0.02083155168840094,False
@@ -657,6 +1315,13 @@ region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Perform
 region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Leadership_Avg,1.2208248846430834e-10,0.005868959805111149,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Status_Score,4.4017198651534915e-11,0.011288753272722845,False
 region,Sales / Business Development,USA,Neutral,Entry-Level,Communal,USA,Warmth_Score,5.981489887632116e-10,0.06014026618588534,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Hireability_Score,2.0942965174732143e-08,0.047379617732894064,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Competence_Score,1.7324497589408543e-09,0.20742821635666425,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Fit_Score,1.4329627027530647e-07,0.010825081997731438,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Performance_Score,1.8231743635890917e-07,0.4154069541184672,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Leadership_Avg,4.788981487479443e-10,0.01742166326081796,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Status_Score,1.1276526727470863e-09,0.028277123595215583,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,China,Warmth_Score,7.766376725845856e-12,0.0001163056264685748,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Hireability_Score,1.1502053382187131e-07,9.45037367561422e-06,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Competence_Score,0.0,6.155082531736471e-05,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Fit_Score,0.0,2.389670768371426e-09,False
@@ -664,6 +1329,13 @@ region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Perform
 region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Leadership_Avg,2.0942965174732143e-08,0.15962937968104796,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Status_Score,0.0,8.762296219205289e-07,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Agentic,USA,Warmth_Score,7.766376725845856e-12,0.041359762114710645,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Hireability_Score,1.1276526727470863e-09,0.027499246974760187,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Competence_Score,4.4017198651534915e-11,0.2126436204559897,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Fit_Score,4.808123142059477e-09,0.0028562974796274686,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Performance_Score,4.897490013396004e-08,0.0440138722795302,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Leadership_Avg,1.3063553657047682e-09,0.0014635177383207107,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Status_Score,7.766376725845942e-12,1.157515840243283e-05,False
+region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,China,Warmth_Score,7.766376725845856e-12,0.014462853084608237,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,USA,Hireability_Score,1.9327547075319628e-09,0.007721201200930947,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,USA,Competence_Score,7.766376725845942e-12,4.250177624562007e-06,False
 region,Sales / Business Development,USA,Neutral,Senior-Level,Communal,USA,Fit_Score,7.766376725845942e-12,9.790140453196517e-05,False

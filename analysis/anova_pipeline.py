@@ -90,26 +90,20 @@ def load_results(data_dir):
 def run_assumption_checks(model_groups):
     """
     Runs Shapiro-Wilk for normality on each group and Levene's for equal variance.
-    model_groups: dictionary of {model_name: np.array(scores)}
     """
     arrays = list(model_groups.values())
     
-    # 1. Shapiro-Wilk (Normality)
-    # If any model's distribution violates normality, the assumption fails.
     shapiro_p_values = []
     for arr in arrays:
-        # Shapiro requires at least 3 data points and variance > 0
         if len(arr) < 3 or np.var(arr) == 0:
-            shapiro_p_values.append(0.0) # Automatically fail if variance is 0
+            shapiro_p_values.append(0.0)
         else:
             stat, p = stats.shapiro(arr)
             shapiro_p_values.append(p)
             
     min_shapiro_p = min(shapiro_p_values) if shapiro_p_values else 0.0
     
-    # 2. Levene's Test (Equal Variance)
     if all(len(arr) >= 2 for arr in arrays) and len(arrays) >= 2:
-        # Check if all arrays have zero variance (Levene will fail mathematically)
         if all(np.var(arr) == 0 for arr in arrays):
             levene_p = 0.0
         else:
@@ -118,7 +112,6 @@ def run_assumption_checks(model_groups):
         levene_p = 0.0
         
     assumptions_passed = (min_shapiro_p >= ALPHA) and (levene_p >= ALPHA)
-    
     return min_shapiro_p, levene_p, assumptions_passed
 
 def run_statistical_test(model_groups, assumptions_passed):
@@ -133,11 +126,33 @@ def run_statistical_test(model_groups, assumptions_passed):
             stat, p_val = stats.kruskal(*arrays)
             test_used = "Kruskal-Wallis"
         except ValueError:
-            # Fallback if Kruskal fails (e.g. all values identical across all groups)
             stat, p_val = np.nan, np.nan
             test_used = "Failed"
             
     return stat, p_val, test_used
+
+def calculate_effect_size(model_groups, test_used, stat):
+    """Calculates Eta-squared (ANOVA) or Epsilon-squared (Kruskal-Wallis)."""
+    arrays = list(model_groups.values())
+    total_N = sum(len(a) for a in arrays)
+    
+    if total_N <= 1 or pd.isna(stat):
+        return np.nan
+        
+    if test_used == "ANOVA":
+        # Eta-squared = SS_between / SS_total
+        overall_mean = np.mean([val for arr in arrays for val in arr])
+        ss_between = sum(len(arr) * (np.mean(arr) - overall_mean)**2 for arr in arrays)
+        ss_total = sum((val - overall_mean)**2 for arr in arrays for val in arr)
+        return ss_between / ss_total if ss_total > 0 else 0.0
+        
+    elif test_used == "Kruskal-Wallis":
+        # Epsilon-squared = H / (N - 1)
+        epsilon_sq = stat / (total_N - 1)
+        # Bounding between 0 and 1 for extreme edge cases
+        return min(max(epsilon_sq, 0.0), 1.0)
+        
+    return np.nan
 
 def main():
     base_dir = Path.cwd()
@@ -155,13 +170,13 @@ def main():
         logging.error("Empty dataframe. Exiting.")
         return
 
-    # Filter out EU and SEA before forming cells (No ANOVA needed)
+    # Filter out EU and SEA
     df = df[df['Model_Origin'].isin(['USA', 'China'])]
     
     anova_results = []
     assumption_results = []
+    descriptive_results = []
     
-    # Group by the Experimental Cell AND the Model Origin (Region)
     grouping_cols = CELL_COLS + ['Model_Origin']
     grouped = df.groupby(grouping_cols)
     
@@ -175,7 +190,6 @@ def main():
         cell_info = dict(zip(grouping_cols, name))
         model_origin = cell_info['Model_Origin']
         
-        # Check completeness: Are all models for this region present?
         unique_models = group_df['Provider'].unique()
         if len(unique_models) != EXPECTED_MODELS_PER_REGION[model_origin]:
             logging.warning(f"Skipping cell {name}: Expected {EXPECTED_MODELS_PER_REGION[model_origin]} models for {model_origin}, found {len(unique_models)} ({unique_models})")
@@ -183,21 +197,29 @@ def main():
             continue
 
         for metric in METRICS:
-            # Extract scores per model, dropping missing values
             model_groups = {}
             for provider in unique_models:
                 scores = group_df[group_df['Provider'] == provider][metric].dropna().values
                 if len(scores) > 0:
                     model_groups[provider] = scores
                     
-            # Safety check: Do all models have data for this metric?
             if len(model_groups) != EXPECTED_MODELS_PER_REGION[model_origin]:
                 logging.warning(f"Skipping {metric} in cell {name}: Missing valid numeric data for some models.")
                 continue
 
-            # 1. Assumption Checks
+            # 1. Descriptive Statistics
+            for provider, scores in model_groups.items():
+                descriptive_results.append({
+                    **cell_info,
+                    "Metric": metric,
+                    "Provider": provider,
+                    "Mean": np.round(np.mean(scores), 4),
+                    "Std_Dev": np.round(np.std(scores, ddof=1), 4) if len(scores) > 1 else 0.0,
+                    "Sample_Size": len(scores)
+                })
+
+            # 2. Assumption Checks
             shapiro_p, levene_p, passed = run_assumption_checks(model_groups)
-            
             assumption_results.append({
                 **cell_info,
                 "Metric": metric,
@@ -206,11 +228,12 @@ def main():
                 "Assumptions_Passed": passed
             })
             
-            # 2. Run Test
+            # 3. Run Test & Effect Size
             stat, p_val, test_used = run_statistical_test(model_groups, passed)
+            effect_size = calculate_effect_size(model_groups, test_used, stat)
             
             if pd.isna(p_val):
-                logging.warning(f"Statistical test failed mathematically for {metric} in cell {name} (likely identical variance).")
+                logging.warning(f"Statistical test failed mathematically for {metric} in cell {name}.")
                 continue
                 
             decision = "Reject H0 (Models Differ)" if p_val < ALPHA else "Fail to Reject H0 (Models Equivalent)"
@@ -222,6 +245,7 @@ def main():
                 "Test_Used": test_used,
                 "F_Statistic": stat,
                 "P_Value": p_val,
+                "Effect_Size": np.round(effect_size, 4),
                 "Decision": decision,
                 "Pooling_Recommendation": pooling
             })
@@ -238,17 +262,12 @@ def main():
         logging.error("No valid ANOVA results generated. Check data completeness.")
         return
 
-    results_df = pd.DataFrame(anova_results)
-    assumptions_df = pd.DataFrame(assumption_results)
+    pd.DataFrame(anova_results).to_csv(base_dir / "anova_results.csv", index=False)
+    pd.DataFrame(assumption_results).to_csv(base_dir / "assumption_checks.csv", index=False)
+    pd.DataFrame(descriptive_results).to_csv(base_dir / "descriptive_statistics.csv", index=False)
     
-    # 1. anova_results.csv
-    results_df.to_csv(base_dir / "anova_results.csv", index=False)
-    
-    # 2. assumption_checks.csv
-    assumptions_df.to_csv(base_dir / "assumption_checks.csv", index=False)
-    
-    # 3. anova_summary.csv
     summary_data = []
+    results_df = pd.DataFrame(anova_results)
     for region in results_df['Model_Origin'].unique():
         region_df = results_df[results_df['Model_Origin'] == region]
         total = len(region_df)
@@ -256,7 +275,6 @@ def main():
         non_significant = total - significant
         pct_sig = (significant / total) * 100 if total > 0 else 0
         
-        # Determine global recommendation for the region
         global_rec = "Do Not Pool" if significant > 0 else "Pool"
         
         summary_data.append({
@@ -270,7 +288,7 @@ def main():
         
     pd.DataFrame(summary_data).to_csv(base_dir / "anova_summary.csv", index=False)
     
-    logging.info("Outputs written to: anova_results.csv, anova_summary.csv, assumption_checks.csv")
+    logging.info("Outputs written: anova_results.csv, anova_summary.csv, assumption_checks.csv, descriptive_statistics.csv")
     logging.info("--- ANOVA Analysis Pipeline Finished ---")
 
 if __name__ == "__main__":

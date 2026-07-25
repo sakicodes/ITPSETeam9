@@ -77,7 +77,7 @@ def call_llm(provider, model_string, prompt_text):
             "tencent": "https://tokenhub-intl.tencentcloudmaas.com/v1",
             "minimax": "https://api.minimax.io/v1",
             "deepseek": "https://api.deepseek.com",
-            "qwen": "https://ws-7zwv3lrntxh3hfsb.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+            "qwen": "https://ws-v01nd1un92hnvp2x.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
             "sealion": "https://api.sea-lion.ai/v1"
         }
         api_keys = {

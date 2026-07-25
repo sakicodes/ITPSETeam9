@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 from openai import OpenAI
 
-load_dotenv()
+load_dotenv(override=True)
 
 MODEL_STRING = "qwen3.7-plus"
 PROVIDER = "qwen"
@@ -115,7 +115,7 @@ def main():
     sgt = datetime.timezone(datetime.timedelta(hours=8))
     
     # Initialize Qwen client with 300s timeout to allow long thinking phases
-    qwen_base_url = "https://ws-7zwv3lrntxh3hfsb.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1"
+    qwen_base_url = "https://ws-v01nd1un92hnvp2x.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1"
     client = OpenAI(
         api_key=os.getenv("QWEN_API_KEY"), 
         base_url=qwen_base_url,

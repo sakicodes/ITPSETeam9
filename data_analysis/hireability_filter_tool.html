@@ -258,6 +258,33 @@ var o=[];var l=Array.isArray(e);for(f=n.s.c;f<=n.e.c;++f)s[f]=ya(f);for(var c=n.
     height:320px;
   }
   .pie-wrap{ max-width:420px; margin:0 auto; }
+  .radar-wrap{ max-width:520px; margin:0 auto; height:420px !important; }
+  .heatmap-table{
+    border-collapse:collapse;
+    width:100%;
+    font-size:12.5px;
+  }
+  .heatmap-table th, .heatmap-table td{
+    border:1px solid var(--line);
+    padding:7px 9px;
+    text-align:center;
+  }
+  .heatmap-table th{
+    background:#f1efe9;
+    font-weight:700;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.03em;
+    color:#565a61;
+  }
+  .heatmap-table td.row-label{
+    text-align:left;
+    font-weight:600;
+    background:#f1efe9;
+    white-space:nowrap;
+  }
+  .heatmap-cell{ font-family:var(--mono); font-weight:600; }
+  .heatmap-scroll{ overflow-x:auto; }
 </style>
 </head>
 <body>
@@ -312,6 +339,23 @@ var o=[];var l=Array.isArray(e);for(f=n.s.c;f<=n.e.c;++f)s[f]=ya(f);for(var c=n.
       <div class="chart-canvas-wrap pie-wrap"><canvas id="pieChart"></canvas></div>
       <p class="chart-note">Reflects the current filter selection. Pie charts compare well for one slice of your data at a time — once you're comparing across models, regions, or seniority levels side by side, a stacked bar tends to read more clearly; happy to add that view if useful.</p>
     </div>
+
+    <div class="chart-panel">
+      <div class="chart-header">
+        <div class="chart-title">Model profile (radar)</div>
+      </div>
+      <div class="chart-canvas-wrap radar-wrap"><canvas id="radarChart"></canvas></div>
+      <p class="chart-note">One polygon per model (whichever Model_Name checkboxes are ticked, or all present models if none are ticked — best kept to 3–5 at a time for readability). Uses 7 metrics: Hireability, Competence, Fit, Performance, Leadership Avg, Status, Warmth — the three Leadership sub-scores (Exhibited/Control/Effective) are left out to avoid crowding the axes, since Leadership_Avg already summarizes them. Say the word if you'd rather swap in different metrics.</p>
+    </div>
+
+    <div class="chart-panel">
+      <div class="chart-header">
+        <div class="chart-title">Model × Metric heatmap</div>
+        <select class="metric-select" id="heatmapRegionSelect"></select>
+      </div>
+      <div class="heatmap-scroll"><table class="heatmap-table" id="heatmapTable"></table></div>
+      <p class="chart-note">Rows = models (whichever Model_Name checkboxes are ticked, or all present models if none are ticked), columns = all 10 score metrics. Use the dropdown to view one JD_Region at a time, or "All regions (pooled)" to combine them — this is layered on top of your existing filters, so it still respects any other filters you've ticked. Color is scaled per column (darkest = highest value within that metric, for the models shown) so metrics with different natural ranges stay readable side by side.</p>
+    </div>
   </div>
 </div>
 
@@ -360,10 +404,17 @@ const SCORE_METRICS = [
   { key: 'Warmth_Score', label: 'Warmth' },
 ];
 
+// 7 metrics for the radar chart: full score list minus the 3 Leadership sub-components,
+// since Leadership_Avg already summarizes those and 10 axes gets crowded.
+const RADAR_METRICS = SCORE_METRICS.filter(m =>
+  !['Leadership_Exhibited', 'Leadership_Control', 'Leadership_Effective'].includes(m.key)
+);
+
 let allRows = [];
 let selectedValues = {}; // { colKey: Set(values) }
 let availableValues = {}; // { colKey: [values] }
-let barChart, interactionChart, pieChart;
+let barChart, interactionChart, pieChart, radarChart;
+let lastFilteredRows = [];
 
 // Simple ±1 SD error bar plugin for vertical bar charts.
 // A dataset opts in by including an `errorBars` array (same length/order as `data`).
@@ -415,6 +466,20 @@ function populateMetricSelects() {
   });
   barSel.addEventListener('change', () => applyFilters());
   interactionSel.addEventListener('change', () => applyFilters());
+
+  const regionSel = document.getElementById('heatmapRegionSelect');
+  regionSel.innerHTML = '';
+  const allOpt = document.createElement('option');
+  allOpt.value = '__ALL__';
+  allOpt.textContent = 'All regions (pooled)';
+  regionSel.appendChild(allOpt);
+  (availableValues['JD_Region'] || []).forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r;
+    opt.textContent = r;
+    regionSel.appendChild(opt);
+  });
+  regionSel.addEventListener('change', () => renderHeatmap(lastFilteredRows));
 }
 
 const fileInput = document.getElementById('fileInput');
@@ -725,11 +790,104 @@ function renderPieChart(rows) {
   });
 }
 
+// Models to display: whichever Model_Name checkboxes are ticked; if none ticked, every model present in `rows`.
+function activeModels(rows) {
+  let models = Array.from(selectedValues['Model_Name']);
+  if (models.length === 0) {
+    models = Array.from(new Set(rows.map(r => String(r.Model_Name))));
+  }
+  return models.sort();
+}
+
+function renderRadarChart(rows) {
+  const models = activeModels(rows);
+  const stats = models.map(m => {
+    const subset = rows.filter(r => String(r.Model_Name) === m);
+    return RADAR_METRICS.map(metric => avg(subset, metric.key));
+  });
+
+  const datasets = models.map((m, i) => ({
+    label: displayName(m),
+    data: stats[i],
+    borderColor: PALETTE[i % PALETTE.length],
+    backgroundColor: PALETTE[i % PALETTE.length] + '33',
+    pointBackgroundColor: PALETTE[i % PALETTE.length],
+    borderWidth: 2,
+  }));
+
+  const ctx = document.getElementById('radarChart').getContext('2d');
+  if (radarChart) radarChart.destroy();
+  radarChart = new Chart(ctx, {
+    type: 'radar',
+    data: { labels: RADAR_METRICS.map(m => m.label), datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom' } },
+      scales: { r: { beginAtZero: true } }
+    }
+  });
+}
+
+function heatColor(value, min, max) {
+  if (value === null || isNaN(value) || max === min) return '#f1efe9';
+  const t = (value - min) / (max - min); // 0..1
+  // interpolate paper -> accent green
+  const r1 = 247, g1 = 246, b1 = 243; // paper
+  const r2 = 47, g2 = 93, b2 = 80;    // accent
+  const r = Math.round(r1 + (r2 - r1) * t);
+  const g = Math.round(g1 + (g2 - g1) * t);
+  const b = Math.round(b1 + (b2 - b1) * t);
+  return `rgb(${r},${g},${b})`;
+}
+
+function renderHeatmap(rows) {
+  const regionSel = document.getElementById('heatmapRegionSelect');
+  if (!regionSel) return;
+  const chosenRegion = regionSel.value || '__ALL__';
+  const scopedRows = chosenRegion === '__ALL__' ? rows : rows.filter(r => String(r.JD_Region) === chosenRegion);
+
+  const models = activeModels(scopedRows.length ? scopedRows : rows);
+
+  // mean per model per metric
+  const grid = models.map(m => {
+    const subset = scopedRows.filter(r => String(r.Model_Name) === m);
+    return SCORE_METRICS.map(metric => ({ mean: avg(subset, metric.key), n: subset.length }));
+  });
+
+  // per-column (per-metric) min/max for color scaling
+  const colRanges = SCORE_METRICS.map((metric, colIdx) => {
+    const vals = grid.map(row => row[colIdx].mean).filter(v => v !== null);
+    if (vals.length === 0) return { min: 0, max: 0 };
+    return { min: Math.min(...vals), max: Math.max(...vals) };
+  });
+
+  const table = document.getElementById('heatmapTable');
+  let html = '<thead><tr><th>Model</th>' + SCORE_METRICS.map(m => `<th>${m.label}</th>`).join('') + '</tr></thead><tbody>';
+  models.forEach((m, rowIdx) => {
+    html += `<tr><td class="row-label">${displayName(m)}</td>`;
+    SCORE_METRICS.forEach((metric, colIdx) => {
+      const cell = grid[rowIdx][colIdx];
+      const { min, max } = colRanges[colIdx];
+      const bg = heatColor(cell.mean, min, max);
+      const textColor = cell.mean !== null && max !== min && (cell.mean - min) / (max - min) > 0.55 ? '#fff' : '#1c2024';
+      const displayVal = cell.mean === null ? '—' : cell.mean.toFixed(2);
+      html += `<td class="heatmap-cell" style="background:${bg}; color:${textColor};" title="n=${cell.n}">${displayVal}</td>`;
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  table.innerHTML = html;
+}
+
 function renderCharts(rows) {
   if (!allRows.length) return;
+  lastFilteredRows = rows;
   renderBarByModel(rows);
   renderInteractionChart(rows);
   renderPieChart(rows);
+  renderRadarChart(rows);
+  renderHeatmap(rows);
 }
 </script>
 </body>

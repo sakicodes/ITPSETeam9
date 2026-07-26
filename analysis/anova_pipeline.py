@@ -29,7 +29,9 @@ MODEL_REGIONS = {
 
 EXPECTED_MODELS_PER_REGION = {
     "USA": 4,
-    "China": 4
+    "China": 4,
+    "EU": 1,
+    "SEA": 1
 }
 
 ALPHA = 0.05
@@ -171,7 +173,7 @@ def main():
         return
 
     # Filter out EU and SEA
-    df = df[df['Model_Origin'].isin(['USA', 'China'])]
+    # df = df[df['Model_Origin'].isin(['USA', 'China'])]
     
     anova_results = []
     assumption_results = []
@@ -217,6 +219,9 @@ def main():
                     "Std_Dev": np.round(np.std(scores, ddof=1), 4) if len(scores) > 1 else 0.0,
                     "Sample_Size": len(scores)
                 })
+
+            if model_origin in ['EU', 'SEA']:
+                continue
 
             # 2. Assumption Checks
             shapiro_p, levene_p, passed = run_assumption_checks(model_groups)

@@ -1,9 +1,9 @@
-2026-07-26 06:58:43,122 [INFO] --- ANOVA Analysis Pipeline Started ---
-2026-07-26 06:58:43,123 [INFO] Files Loaded: 20
-2026-07-26 06:58:44,002 [INFO] Rows Loaded: 57600
-2026-07-26 06:58:44,069 [INFO] Number of Unique Cells (Conditions x Regions) identified: 384
-2026-07-26 06:58:44,069 [INFO] Number of Metrics to analyze per cell: 7
-2026-07-26 06:58:59,663 [INFO] ANOVAs/Kruskal-Wallis tests successfully completed: 2688
-2026-07-26 06:58:59,664 [INFO] Cells skipped due to incompleteness: 0
-2026-07-26 06:58:59,781 [INFO] Outputs written: anova_results.csv, anova_summary.csv, assumption_checks.csv, descriptive_statistics.csv
-2026-07-26 06:58:59,782 [INFO] --- ANOVA Analysis Pipeline Finished ---
+2026-07-26 13:34:43,129 [INFO] --- ANOVA Analysis Pipeline Started ---
+2026-07-26 13:34:43,130 [INFO] Files Loaded: 20
+2026-07-26 13:34:44,026 [INFO] Rows Loaded: 57600
+2026-07-26 13:34:44,039 [INFO] Number of Unique Cells (Conditions x Regions) identified: 768
+2026-07-26 13:34:44,039 [INFO] Number of Metrics to analyze per cell: 7
+2026-07-26 13:35:02,971 [INFO] ANOVAs/Kruskal-Wallis tests successfully completed: 2688
+2026-07-26 13:35:02,971 [INFO] Cells skipped due to incompleteness: 0
+2026-07-26 13:35:03,197 [INFO] Outputs written: anova_results.csv, anova_summary.csv, assumption_checks.csv, descriptive_statistics.csv
+2026-07-26 13:35:03,197 [INFO] --- ANOVA Analysis Pipeline Finished ---

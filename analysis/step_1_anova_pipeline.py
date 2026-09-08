@@ -159,13 +159,17 @@ def calculate_effect_size(model_groups, test_used, stat):
 def main():
     base_dir = Path.cwd()
     data_dir = base_dir / "data"
+    output_dir = base_dir / "outputs" / "step_1_anova_analysis"
     
     if not data_dir.exists():
         data_dir.mkdir()
         print("Created /data directory. Please place results CSVs inside and run again.")
         return
 
-    setup_logging(base_dir)
+    if not output_dir.exists():
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+    setup_logging(output_dir)
     
     df = load_results(data_dir)
     if df.empty:
@@ -267,9 +271,9 @@ def main():
         logging.error("No valid ANOVA results generated. Check data completeness.")
         return
 
-    pd.DataFrame(anova_results).to_csv(base_dir / "anova_results.csv", index=False)
-    pd.DataFrame(assumption_results).to_csv(base_dir / "assumption_checks.csv", index=False)
-    pd.DataFrame(descriptive_results).to_csv(base_dir / "descriptive_statistics.csv", index=False)
+    pd.DataFrame(anova_results).to_csv(output_dir / "anova_results.csv", index=False)
+    pd.DataFrame(assumption_results).to_csv(output_dir / "assumption_checks.csv", index=False)
+    pd.DataFrame(descriptive_results).to_csv(output_dir / "descriptive_statistics.csv", index=False)
     
     summary_data = []
     results_df = pd.DataFrame(anova_results)
@@ -291,7 +295,7 @@ def main():
             "Global_Recommendation": global_rec
         })
         
-    pd.DataFrame(summary_data).to_csv(base_dir / "anova_summary.csv", index=False)
+    pd.DataFrame(summary_data).to_csv(output_dir / "anova_summary.csv", index=False)
     
     logging.info("Outputs written: anova_results.csv, anova_summary.csv, assumption_checks.csv, descriptive_statistics.csv")
     logging.info("--- ANOVA Analysis Pipeline Finished ---")
